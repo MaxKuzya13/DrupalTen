@@ -1,0 +1,7 @@
+name: 'KLOG - Paragraphs'
+type: module
+description: 'Custom code for paragraphs enhancement'
+package: Klog
+core_version_requirement: ^10
+dependencies:
+  - paragraphs:paragraphs
