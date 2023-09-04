@@ -34,8 +34,25 @@ class GalleryBehavior extends ParagraphsBehaviorBase {
    */
   public function view(array &$build, Paragraph $paragraph, EntityViewDisplayInterface $display, $view_mode) {
     $images_per_row = $paragraph->getBehaviorSetting($this->getPluginId(), 'items_per_row', 4);
-    $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode) . '--images-per-row-' . $images_per_row;
-    $build['#attributes']['class'][] = Html::getClass($bem_block);
+    $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode);
+    $build['#attributes']['class'][] = Html::getClass($bem_block . '--images-per-row-' . $images_per_row);
+
+//    if (isset($build['field_image']) && $build['field_image']['#formatter'] == 'media_thumbnail') {
+//      switch ($images_per_row) {
+//        case '4':
+//        default:
+//          $image_style = 'paragraph_text_and_image_4_of_12';
+//          break;
+//
+//        case '3':
+//          $image_style = 'paragraph_text_and_image_6_of_12';
+//          break;
+//
+//        case '2':
+//          $image_style = 'paragraph_text_and_image_8_of_12';
+//          break;
+//      };
+//    };
   }
 
 
