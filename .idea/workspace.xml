@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphTitleBehavior.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoBehavior.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoGalleryBehavior.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/TextAndImageBehavior.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/GalleryBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/GalleryBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,6 +193,7 @@
       <updated>1693734127686</updated>
       <workItem from="1693734128771" duration="7265000" />
       <workItem from="1693816531363" duration="20027000" />
+      <workItem from="1693904349215" duration="577000" />
     </task>
     <servers />
   </component>

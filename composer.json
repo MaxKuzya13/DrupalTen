@@ -28,6 +28,7 @@
         "drupal/pathauto": "^1.11",
         "drupal/photoswipe": "^4.0",
         "drupal/redirect": "^1.9",
+        "drupal/tvi": "^2.0@alpha",
         "drupal/twig_tweak": "^3.2",
         "drush/drush": "^12.1"
     },
