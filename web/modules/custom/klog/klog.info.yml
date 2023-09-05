@@ -1,0 +1,6 @@
+name: 'KLOG'
+type: module
+description: 'Custom module for custom code, hooks and function'
+package: Klog
+core_version_requirement: ^10
+
