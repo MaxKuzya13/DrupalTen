@@ -1,0 +1,6 @@
+name: KLOG Hero
+type: module
+description: Custom page title.
+package: Klog
+core_version_requirement: ^10
+
