@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.info.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Annotation/KlogHeroEntity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Annotation/KlogHeroPath.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity/KlogHeroEntityPluginBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity/KlogHeroEntityPluginInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path/KlogHeroPathPluginBase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path/KlogHeroPathPluginInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.theme.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path/KlogHeroPathDefaultPlugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHeroPluginManager.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/templates/klog-hero.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/.htaccess" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,21 +160,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuzya/my-drupal10-site/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity" />
@@ -202,7 +199,8 @@
       <updated>1693734127686</updated>
       <workItem from="1693734128771" duration="7265000" />
       <workItem from="1693816531363" duration="20027000" />
-      <workItem from="1693904349215" duration="10690000" />
+      <workItem from="1693904349215" duration="10802000" />
+      <workItem from="1693995268219" duration="6278000" />
     </task>
     <servers />
   </component>
