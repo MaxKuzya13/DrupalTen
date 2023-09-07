@@ -15,7 +15,7 @@ use Drupal\paragraphs\ParagraphsBehaviorBase;
 /**
  * @ParagraphsBehavior(
  *  id = "klog_paragraphs_paragraph_title",
- *  label = @Translation("Paragrapg title settings"),
+ *  label = @Translation("Paragraph title settings"),
  *  description = @Translation ("Allows to configure paragraph title behavior"),
  *  weight = 0,
  * )
@@ -56,7 +56,7 @@ class ParagraphTitleBehavior extends ParagraphsBehaviorBase {
        '#type' => 'select',
        '#title' => $this->t('Title wrapper element'),
        '#options' => $this->getHeadingOptions(),
-       '#defaul_value' => $paragraph->getBehaviorSetting($this->getPluginId(), 'title-wrapper', 'h2'),
+       '#default_value' => $paragraph->getBehaviorSetting($this->getPluginId(), 'title_wrapper', 'h2'),
      ];
    }
 

@@ -94,7 +94,7 @@ class KlogHeroPluginManager extends DefaultPluginManager {
   /**
    * Hers suitable plugins for current request.
    */
-  public function gerSuitablePlugins() {
+  public function getSuitablePlugins() {
     $plugin_type = $this->defaults['plugin_type'];
 
     if($plugin_type == 'entity') {

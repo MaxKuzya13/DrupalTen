@@ -18,7 +18,7 @@ function klog_hero_theme($existing, $type, $theme, $path) {
         'video' => [],
       ],
       'file' => 'klog_hero.theme.inc',
-      'pattern' => 'klog_heroo__',
+      'pattern' => 'klog_hero__',
     ],
   ];
 }

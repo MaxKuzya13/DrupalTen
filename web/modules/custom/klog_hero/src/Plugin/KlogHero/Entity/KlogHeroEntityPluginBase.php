@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\klog_hero\Plugin\KlogHero\Path;
+namespace Drupal\klog_hero\Plugin\KlogHero\Entity;
 
 use Drupal\klog_hero\Annotation\KlogHeroEntity;
 use Drupal\klog_hero\Plugin\KlogHero\KlogHeroPluginBase;
@@ -29,6 +29,6 @@ abstract class KlogHeroEntityPluginBase extends KlogHeroPluginBase implements Kl
    * {@inheritdoc}
    */
   public function getEntity() {
-    return $this->pluginDefinition['entity'];
+    return $this->configuration['entity'];
   }
 }

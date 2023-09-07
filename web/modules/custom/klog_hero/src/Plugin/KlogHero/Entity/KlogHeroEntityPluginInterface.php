@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\klog_hero\Plugin\KlogHero\Path;
+namespace Drupal\klog_hero\Plugin\KlogHero\Entity;
 
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\klog_hero\Plugin\KlogHero\KlogHeroPluginInterface;

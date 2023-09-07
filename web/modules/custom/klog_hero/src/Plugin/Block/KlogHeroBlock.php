@@ -22,14 +22,14 @@ final class KlogHeroBlock extends BlockBase implements ContainerFactoryPluginInt
    *
    * @var \Drupal\klog_hero\Plugin\KlogHeroPluginManager
    */
-  protected KlogHeroPluginManager $klogHeroPathManager;
+  protected KlogHeroPluginManager $klogHeroEntityManager;
 
   /**
    * The plugin manager for klog hero path plugins.
    *
    * @var \Drupal\klog_hero\Plugin\KlogHeroPluginManager
    */
-  protected KlogHeroPluginManager $klogHeroEntityManager;
+  protected KlogHeroPluginManager $klogHeroPathManager;
 
   /**
    * Construct a new KlogHeroBlock instance.
@@ -66,20 +66,23 @@ final class KlogHeroBlock extends BlockBase implements ContainerFactoryPluginInt
    * {@inheritdoc}
    */
   public function build(): array {
-    $entity_plugins = $this->klogHeroEntityManager->gerSuitablePlugins();
-    $path_plugins = $this->klogHeroPathManager->gerSuitablePlugins();
+    $entity_plugins = $this->klogHeroEntityManager->getSuitablePlugins();
+    $path_plugins = $this->klogHeroPathManager->getSuitablePlugins();
     $plugins = $entity_plugins + $path_plugins;
     uasort($plugins, '\Drupal\Component\Utility\SortArray::sortByWeightElement');
     $plugin = end($plugins);
 
+
     if ($plugin['plugin_type'] == 'entity') {
       /** @var \Drupal\klog_hero\Plugin\KlogHero\KlogHeroPluginInterface $instance */
-      $instance = $this->klogHeroEntityManager->createInstance($plugin['id']);
+      $instance = $this->klogHeroEntityManager->createInstance($plugin['id'], ['entity' => $plugin['entity']] );
     }
 
     if ($plugin['plugin_type'] == 'path') {
       $instance = $this->klogHeroPathManager->createInstance($plugin['id']);
     }
+
+    dump($instance->getHeroSubtitle());
 
     $build['content'] = [
       '#theme' => 'klog_hero',
