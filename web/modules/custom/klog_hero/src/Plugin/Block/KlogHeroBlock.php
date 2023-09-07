@@ -82,8 +82,6 @@ final class KlogHeroBlock extends BlockBase implements ContainerFactoryPluginInt
       $instance = $this->klogHeroPathManager->createInstance($plugin['id']);
     }
 
-    dump($instance->getHeroSubtitle());
-
     $build['content'] = [
       '#theme' => 'klog_hero',
       '#title' => $instance->getHeroTitle(),

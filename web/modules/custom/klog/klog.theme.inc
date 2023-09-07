@@ -22,12 +22,13 @@ function template_preprocess_klog_previous_next(&$variables) {
     ->condition('type', $entity->bundle())
     ->condition('created', $entity->getCreatedTime(), '>')
     ->condition('status', 1)
+    ->accessCheck(TRUE)
     ->range(0, 1)
     ->sort('created', 'ASC')
     ->execute();
 
   if (!empty($next_entity_id)) {
-    $next_entity = $entity_storage->load($next_entity_id);
+    $next_entity = $entity_storage->load(array_shift($next_entity_id));
 
     $variables['next']['label'] = $next_entity->label();
     $variables['next']['url'] = $next_entity->toUrl()->toString(TRUE)->getGeneratedUrl();
@@ -38,12 +39,13 @@ function template_preprocess_klog_previous_next(&$variables) {
     ->condition('type', $entity->bundle())
     ->condition('created', $entity->getCreatedTime(), '<')
     ->condition('status', 1)
+    ->accessCheck(TRUE)
     ->range(0, 1)
     ->sort('created', 'DESC')
     ->execute();
 
   if (!empty($previous_entity_id)) {
-    $previous_entity = $entity_storage->load($previous_entity_id);
+    $previous_entity = $entity_storage->load(array_shift($previous_entity_id));
 
     $variables['previous']['label'] = $previous_entity->label();
     $variables['previous']['url'] = $previous_entity->toUrl()->toString(TRUE)->getGeneratedUrl();
