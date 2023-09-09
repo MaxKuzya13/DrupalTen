@@ -5,14 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.theme.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path/KlogHeroPathDefaultPlugin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHeroPluginManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/templates/klog-hero.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/assets/js/kenny.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_layouts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_page-hero.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/files/php/twig/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/docs/dependency-injection.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/docs/dependency-injection.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/docs/hooks.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/docs/hooks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/docs/repl.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/docs/repl.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/examples/Commands/ArtCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/examples/Commands/ArtCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src-symfony-compatibility/v6/Style/DrushStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src-symfony-compatibility/v6/Style/DrushStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/CacheCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/CacheCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/CliCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/CliCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/DeployCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/DeployCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/LocaleCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/LocaleCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/LoginCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/LoginCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/StateCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/core/StateCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/pm/PmCommands.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Commands/pm/PmCommands.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Preflight/PreflightVerify.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Preflight/PreflightVerify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/drush/drush/src/Runtime/ServiceManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/drush/drush/src/Runtime/ServiceManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Component/Transliteration/data/xc0.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Component/Transliteration/data/xc0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-options.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-options.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/sites/default/default.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/default.services.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,33 +187,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kuzya/my-drupal10-site/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
+    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/assets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/assets" />
+      <recent name="$PROJECT_DIR$/vendor/drush/drush" />
+      <recent name="$PROJECT_DIR$/web/sites/default" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Entity" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero" />
-      <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Annotation" />
-      <recent name="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior" />
-      <recent name="$PROJECT_DIR$/web/sites/default" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny" />
+      <recent name="$PROJECT_DIR$/web/themes" />
+      <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/Drush" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -201,6 +231,8 @@
       <workItem from="1693816531363" duration="20027000" />
       <workItem from="1693904349215" duration="10802000" />
       <workItem from="1693995268219" duration="6278000" />
+      <workItem from="1694076631363" duration="11488000" />
+      <workItem from="1694244510128" duration="15946000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,6 @@ services:
     class: Drupal\klog_hero\Plugin\KlogHeroPluginManager
     arguments: [entity, '@container.namespaces', '@cache.discovery', '@module_handler', '@path.current', '@path.matcher', '@current_route_match']
 
-
   plugin.manager.klog_hero.path:
     class: Drupal\klog_hero\Plugin\KlogHeroPluginManager
     arguments: [path, '@container.namespaces', '@cache.discovery', '@module_handler', '@path.current', '@path.matcher', '@current_route_match' ]

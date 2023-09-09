@@ -1,0 +1,15 @@
+# Theme base information.
+screenshot: screenshot.png
+name: Glisseo (base theme)
+type: theme
+description: 'Glisseo is a base theme for fast and easy start to theme your project.'
+package: Glisseo
+core_version_requirement: ^9 || ^10
+base theme: stable9
+dependencies:
+  - drupal:twig_tweak (>=3.0.0)
+
+# Information added by Drupal.org packaging script on 2023-02-11
+version: '2.0.0-rc2'
+project: 'glisseo'
+datestamp: 1676099400
