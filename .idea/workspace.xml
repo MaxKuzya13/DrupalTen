@@ -4,84 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block--kenny-homepagehero.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block--local-actions-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block--local-tasks-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block--system-menu-block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/region--navbar.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation/breadcrumb.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation/menu-local-action.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation/menu-local-task.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation/menu-local-tasks.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/includes/theme.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/includes/theme.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Entity/Sql/DefaultTableMapping.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Entity/Sql/DefaultTableMapping.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/Annotation/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/Annotation/Layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutDefinition.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManagerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManagerInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/misc/tableresponsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/misc/tableresponsive.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/breakpoint/breakpoint.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/breakpoint/breakpoint.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/field_layout/field_layout.install" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_layout/field_layout.install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/field_layout/src/Entity/FieldLayoutEntityDisplayTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_layout/src/Entity/FieldLayoutEntityDisplayTrait.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/field_layout/tests/src/FunctionalJavascript/FieldLayoutTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_layout/tests/src/FunctionalJavascript/FieldLayoutTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/forum/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/forum/tests/fixtures/drupal7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/language/config/optional/tour.tour.language-edit.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/language/config/optional/tour.tour.language-edit.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.layouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.layouts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Controller/ChooseSectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Controller/ChooseSectionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Entity/LayoutBuilderEntityViewDisplayStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Entity/LayoutBuilderEntityViewDisplayStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Form/LayoutBuilderEntityViewDisplayForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Form/LayoutBuilderEntityViewDisplayForm.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepositoryInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/Layout/MultiWidthLayoutBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/Layout/MultiWidthLayoutBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/SectionStorage/OverridesSectionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/SectionStorage/OverridesSectionStorage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/modules/layout_builder_theme_suggestions_test/layout_builder_theme_suggestions_test.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/modules/layout_builder_theme_suggestions_test/layout_builder_theme_suggestions_test.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderFormModeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderFormModeTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTranslationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTranslationTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/InlineBlockPrivateFilesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/InlineBlockPrivateFilesTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Kernel/TranslatableFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Kernel/TranslatableFieldTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.layouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.layouts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/migrate_drupal/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/migrate_drupal/tests/fixtures/drupal7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/layout_test/layout_test.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/layout_test/layout_test.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/plugin_test/src/Plugin/MockBlockManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/plugin_test/src/Plugin/MockBlockManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/toolbar/js/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/toolbar/js/toolbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/modules/tracker/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/tracker/tests/fixtures/drupal7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.layouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.layouts.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Theme/Stable9LibraryOverrideTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Theme/Stable9LibraryOverrideTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Layout/LayoutPluginManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Layout/LayoutPluginManagerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.pcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.pcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.pcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.pcss.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/js/tabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/core/themes/stable9/stable9.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/stable9/stable9.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/field_group/js/field_group.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/field_group/js/field_group.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/fixtures/drupal7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/contrib/glisseo/templates/navigation/pager.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/contrib/glisseo/templates/navigation/pager.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/logo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_layouts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_page-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_page-hero.scss" afterDir="false" />
-    </list>
+    <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -274,7 +197,7 @@
       <workItem from="1693995268219" duration="6278000" />
       <workItem from="1694076631363" duration="11488000" />
       <workItem from="1694244510128" duration="16174000" />
-      <workItem from="1694420644152" duration="9301000" />
+      <workItem from="1694420644152" duration="10100000" />
     </task>
     <servers />
   </component>

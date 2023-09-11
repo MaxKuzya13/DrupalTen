@@ -7,8 +7,6 @@
   subtitle ? bem_block ~ '--subtitle' : bem_block ~ '--no-subtitle',
 ] %}
 
-
-
 <div {{ attributes.addClass(classes) }}>
   {% if image and video %}
     <video poster="{{ image|image_style('thumbnail') }}" autoplay loop muted class="{{ bem_block }}__video">
