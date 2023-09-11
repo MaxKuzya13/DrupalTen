@@ -8,7 +8,6 @@ libraries:
   - kenny/theme
   - core/normalize
 regions:
-  navbar: 'Navigation'
-  header: 'Header'
   content: 'Content'
-  footer: 'Footer'
+  sidebar: "Sidebar"
+
