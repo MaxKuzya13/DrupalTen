@@ -12,15 +12,15 @@ libraries-override:
   layout_builder/twocol_section:
     css:
       theme:
-        layouts/twocol_section/twocol_section.css: layouts/twocol_section/twocol_section.css
+        layouts/twocol_section/twocol_section.css: layout/twocol_section/twocol_section.css
   layout_builder/threecol_section:
     css:
       theme:
-        layouts/threecol_section/threecol_section.css: layouts/threecol_section/threecol_section.css
+        layouts/threecol_section/threecol_section.css: layout/threecol_section/threecol_section.css
   layout_builder/fourcol_section:
     css:
       theme:
-        layouts/fourcol_section/fourcol_section.css: layouts/fourcol_section/fourcol_section.css
+        layouts/fourcol_section/fourcol_section.css: layout/fourcol_section/fourcol_section.css
 
 libraries-extend:
   core/drupal.message:

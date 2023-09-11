@@ -19,7 +19,7 @@ function layout_builder_theme_suggestions_test_theme() {
 }
 
 /**
- * Implements hook_preprocess_HOOK() for the list of layouts.
+ * Implements hook_preprocess_HOOK() for the list of layout.
  */
 function layout_builder_theme_suggestions_test_preprocess_item_list__layouts(&$variables) {
   foreach (array_keys($variables['items']) as $layout_id) {

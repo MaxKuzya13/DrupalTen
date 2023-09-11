@@ -40,11 +40,11 @@ class Layout extends Plugin {
   public $label;
 
   /**
-   * A description for advanced layouts.
+   * A description for advanced layout.
    *
    * This property is optional and it does not need to be declared.
    *
-   * Sometimes layouts are so complex that the name is insufficient to describe
+   * Sometimes layout are so complex that the name is insufficient to describe
    * a layout such that a visually impaired administrator could layout a page
    * for a non-visually impaired audience. If specified, it will provide a
    * description that is used for accessibility purposes.
@@ -158,7 +158,7 @@ class Layout extends Plugin {
   /**
    * The layout plugin class.
    *
-   * This default value is used for plugins defined in layouts.yml that do not
+   * This default value is used for plugins defined in layout.yml that do not
    * specify a class themselves.
    *
    * @var string

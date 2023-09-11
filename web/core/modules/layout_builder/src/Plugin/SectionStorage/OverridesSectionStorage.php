@@ -345,11 +345,11 @@ class OverridesSectionStorage extends SectionStorageBase implements ContainerFac
 
     // Create an access result that will allow access to the layout if one of
     // these conditions applies:
-    // 1. The user can configure any layouts.
+    // 1. The user can configure any layout.
     $any_access = AccessResult::allowedIfHasPermission($account, 'configure any layout');
-    // 2. The user can configure layouts on all items of the bundle type.
+    // 2. The user can configure layout on all items of the bundle type.
     $bundle_access = AccessResult::allowedIfHasPermission($account, "configure all {$entity->bundle()} {$entity->getEntityTypeId()} layout overrides");
-    // 3. The user can configure layouts items of this bundle type they can edit
+    // 3. The user can configure layout items of this bundle type they can edit
     //    AND the user has access to edit this entity.
     $edit_only_bundle_access = AccessResult::allowedIfHasPermission($account, "configure editable {$entity->bundle()} {$entity->getEntityTypeId()} layout overrides");
     $edit_only_bundle_access = $edit_only_bundle_access->andIf($entity->access('update', $account, TRUE));

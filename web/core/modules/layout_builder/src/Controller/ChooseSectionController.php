@@ -94,7 +94,7 @@ class ChooseSectionController implements ContainerInjectionInterface {
       }
       $items[$plugin_id] = $item;
     }
-    $output['layouts'] = [
+    $output['layout'] = [
       '#theme' => 'item_list__layouts',
       '#items' => $items,
       '#attributes' => [

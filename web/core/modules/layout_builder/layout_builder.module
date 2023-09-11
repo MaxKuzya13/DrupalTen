@@ -49,14 +49,14 @@ function layout_builder_help($route_name, RouteMatchInterface $route_match) {
   switch ($route_name) {
     case 'help.page.layout_builder':
       $output = '<h3>' . t('About') . '</h3>';
-      $output .= '<p>' . t('Layout Builder allows you to use layouts to customize how content, content blocks, and other <a href=":field_help" title="Field module help, with background on content entities">content entities</a> are displayed.', [':field_help' => Url::fromRoute('help.page', ['name' => 'field'])->toString()]) . '</p>';
+      $output .= '<p>' . t('Layout Builder allows you to use layout to customize how content, content blocks, and other <a href=":field_help" title="Field module help, with background on content entities">content entities</a> are displayed.', [':field_help' => Url::fromRoute('help.page', ['name' => 'field'])->toString()]) . '</p>';
       $output .= '<p>' . t('For more information, see the <a href=":layout-builder-documentation">online documentation for the Layout Builder module</a>.', [':layout-builder-documentation' => 'https://www.drupal.org/docs/8/core/modules/layout-builder']) . '</p>';
       $output .= '<h3>' . t('Uses') . '</h3>';
       $output .= '<dl>';
-      $output .= '<dt>' . t('Default layouts') . '</dt>';
-      $output .= '<dd>' . t('Layout Builder can be selectively enabled on the "Manage Display" page in the <a href=":field_ui">Field UI</a>. This allows you to control the output of each type of display individually. For example, a "Basic page" might have view modes such as Full and Teaser, with each view mode having different layouts selected.', [':field_ui' => Url::fromRoute('help.page', ['name' => 'field_ui'])->toString()]) . '</dd>';
-      $output .= '<dt>' . t('Overridden layouts') . '</dt>';
-      $output .= '<dd>' . t('If enabled, each individual content item can have a custom layout. Once the layout for an individual content item is overridden, changes to the Default layout will no longer affect it. Overridden layouts may be reverted to return to matching and being synchronized to their Default layout.') . '</dd>';
+      $output .= '<dt>' . t('Default layout') . '</dt>';
+      $output .= '<dd>' . t('Layout Builder can be selectively enabled on the "Manage Display" page in the <a href=":field_ui">Field UI</a>. This allows you to control the output of each type of display individually. For example, a "Basic page" might have view modes such as Full and Teaser, with each view mode having different layout selected.', [':field_ui' => Url::fromRoute('help.page', ['name' => 'field_ui'])->toString()]) . '</dd>';
+      $output .= '<dt>' . t('Overridden layout') . '</dt>';
+      $output .= '<dd>' . t('If enabled, each individual content item can have a custom layout. Once the layout for an individual content item is overridden, changes to the Default layout will no longer affect it. Overridden layout may be reverted to return to matching and being synchronized to their Default layout.') . '</dd>';
       $output .= '<dt>' . t('User permissions') . '</dt>';
       $output .= '<dd>' . t('The Layout Builder module makes a number of permissions available, which can be set by role on the <a href=":permissions">permissions page</a>. For more information, see the <a href=":layout-builder-permissions">Configuring Layout Builder permissions</a> online documentation.', [
         ':permissions' => Url::fromRoute('user.admin_permissions.module', ['modules' => 'layout_builder'])->toString(),
@@ -288,8 +288,8 @@ function layout_builder_plugin_filter_block__block_ui_alter(array &$definitions,
  * Implements hook_plugin_filter_TYPE__CONSUMER_alter().
  */
 function layout_builder_plugin_filter_layout__layout_builder_alter(array &$definitions, array $extra) {
-  // Remove layouts provide by layout discovery that are not needed because of
-  // layouts provided by this module.
+  // Remove layout provide by layout discovery that are not needed because of
+  // layout provided by this module.
   $duplicate_layouts = [
     'layout_twocol',
     'layout_twocol_bricks',
@@ -353,7 +353,7 @@ function layout_builder_entity_translation_create(EntityInterface $translation) 
   /** @var \Drupal\Core\Entity\FieldableEntityInterface $translation */
   if ($translation->hasField(OverridesSectionStorage::FIELD_NAME) && $translation->getFieldDefinition(OverridesSectionStorage::FIELD_NAME)->isTranslatable()) {
     // When creating a new translation do not copy untranslated sections because
-    // per-language layouts are not supported.
+    // per-language layout are not supported.
     $translation->set(OverridesSectionStorage::FIELD_NAME, []);
   }
 }
@@ -381,12 +381,12 @@ function layout_builder_preprocess_language_content_settings_table(&$variables) 
   foreach ($variables['build']['#rows'] as &$row) {
     if (isset($row['#field_name']) && $row['#field_name'] === OverridesSectionStorage::FIELD_NAME) {
       // Rebuild the label to include a warning about using translations with
-      // layouts.
+      // layout.
       $row['data'][1]['data']['field'] = [
         'label' => $row['data'][1]['data']['field'],
         'description' => [
           '#type' => 'container',
-          '#markup' => t('<strong>Warning</strong>: Layout Builder does not support translating layouts. (<a href="https://www.drupal.org/docs/8/core/modules/layout-builder/layout-builder-and-content-translation">online documentation</a>)'),
+          '#markup' => t('<strong>Warning</strong>: Layout Builder does not support translating layout. (<a href="https://www.drupal.org/docs/8/core/modules/layout-builder/layout-builder-and-content-translation">online documentation</a>)'),
           '#attributes' => [
             'class' => ['layout-builder-translation-warning'],
           ],

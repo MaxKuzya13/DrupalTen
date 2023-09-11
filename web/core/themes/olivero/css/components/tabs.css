@@ -4,7 +4,7 @@
  * https://www.drupal.org/node/3084859
  * @preserve
  */
-/* Breakpoint where tabs switch between vertical and horizontal layouts. */
+/* Breakpoint where tabs switch between vertical and horizontal layout. */
 .tabs {
   --tabs-height: var(--sp3);
   --tabs-padding-inline: var(--sp1-5);

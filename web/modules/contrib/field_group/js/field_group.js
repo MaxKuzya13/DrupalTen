@@ -42,7 +42,7 @@
 
       // Add a new ID to each fieldset.
       $('.group-wrapper fieldset').each(function () {
-        // Tats bad, but we have to keep the actual id to prevent layouts to break.
+        // Tats bad, but we have to keep the actual id to prevent layout to break.
         var fieldgroupID = 'field_group-' + $(this).attr('id') + ' ' + $(this).attr('id');
         $(this).attr('id', fieldgroupID);
       });

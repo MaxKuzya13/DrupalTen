@@ -52,7 +52,7 @@ class LayoutBuilderFormModeTest extends BrowserTestBase {
       'required' => TRUE,
     ])->save();
 
-    // Enable layout builder custom layouts.
+    // Enable layout builder custom layout.
     LayoutBuilderEntityViewDisplay::create([
       'targetEntityType' => 'entity_test',
       'bundle' => 'entity_test',

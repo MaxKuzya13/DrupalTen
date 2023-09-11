@@ -1518,7 +1518,7 @@ function template_preprocess_install_page(&$variables) {
 /**
  * Prepares variables for region templates.
  *
- * Default template: region.html.twig.
+ * Default template: region--navbar.html.twig.
  *
  * Prepares the values passed to the theme_region function to be passed into a
  * pluggable template engine. Uses the region name to generate a template file

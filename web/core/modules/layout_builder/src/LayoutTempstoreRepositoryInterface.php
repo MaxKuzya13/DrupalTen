@@ -3,7 +3,7 @@
 namespace Drupal\layout_builder;
 
 /**
- * Provides an interface for loading layouts from tempstore.
+ * Provides an interface for loading layout from tempstore.
  */
 interface LayoutTempstoreRepositoryInterface {
 

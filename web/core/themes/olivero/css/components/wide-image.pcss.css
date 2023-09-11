@@ -34,7 +34,7 @@
   }
 }
 
-/* Ensure that image doesn't overlap layout builder sections when editing layouts. */
+/* Ensure that image doesn't overlap layout builder sections when editing layout. */
 .layout-builder .wide-image {
   max-width: 100%;
   margin-inline-start: 0;

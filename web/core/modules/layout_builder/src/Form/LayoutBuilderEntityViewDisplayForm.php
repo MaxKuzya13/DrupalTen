@@ -106,9 +106,9 @@ class LayoutBuilderEntityViewDisplayForm extends EntityViewDisplayEditForm {
       // Prevent turning off overrides while any exist.
       if ($this->hasOverrides($this->entity)) {
         $form['layout']['enabled']['#disabled'] = TRUE;
-        $form['layout']['enabled']['#description'] = $this->t('You must revert all customized layouts of this display before you can disable this option.');
+        $form['layout']['enabled']['#description'] = $this->t('You must revert all customized layout of this display before you can disable this option.');
         $form['layout']['allow_custom']['#disabled'] = TRUE;
-        $form['layout']['allow_custom']['#description'] = $this->t('You must revert all customized layouts of this display before you can disable this option.');
+        $form['layout']['allow_custom']['#description'] = $this->t('You must revert all customized layout of this display before you can disable this option.');
         unset($form['layout']['allow_custom']['#states']);
         unset($form['#entity_builders']['layout_builder']);
       }

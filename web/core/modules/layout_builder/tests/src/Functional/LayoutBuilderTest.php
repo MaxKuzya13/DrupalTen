@@ -316,8 +316,8 @@ class LayoutBuilderTest extends BrowserTestBase {
     $page->pressButton('Save layout');
     $assert_session->addressEquals("$field_ui_prefix/display/default");
 
-    // Load the default layouts again after saving to confirm fields are only
-    // added on new layouts.
+    // Load the default layout again after saving to confirm fields are only
+    // added on new layout.
     $this->drupalGet("$field_ui_prefix/display/default");
     $assert_session->linkExists('Manage layout');
     $this->clickLink('Manage layout');
@@ -1206,7 +1206,7 @@ class LayoutBuilderTest extends BrowserTestBase {
   }
 
   /**
-   * Tests that layouts can be context-aware.
+   * Tests that layout can be context-aware.
    */
   public function testContextAwareLayouts() {
     $assert_session = $this->assertSession();
@@ -1593,13 +1593,13 @@ class LayoutBuilderTest extends BrowserTestBase {
   }
 
   /**
-   * Asserts that the correct layouts are available.
+   * Asserts that the correct layout are available.
    *
    * @internal
    */
   protected function assertCorrectLayouts(): void {
     $assert_session = $this->assertSession();
-    // Ensure the layouts provided by layout_builder are available.
+    // Ensure the layout provided by layout_builder are available.
     $expected_layouts_hrefs = [
       'layout_builder/configure/section/overrides/node.1/0/layout_onecol',
       'layout_builder/configure/section/overrides/node.1/0/layout_twocol_section',
@@ -1609,7 +1609,7 @@ class LayoutBuilderTest extends BrowserTestBase {
     foreach ($expected_layouts_hrefs as $expected_layouts_href) {
       $assert_session->linkByHrefExists($expected_layouts_href);
     }
-    // Ensure the layout_discovery module's layouts were removed.
+    // Ensure the layout_discovery module's layout were removed.
     $unexpected_layouts = [
       'twocol',
       'twocol_bricks',

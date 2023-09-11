@@ -16,7 +16,7 @@
     const activeTab = tabs.querySelector('.is-active');
 
     /**
-     * Determines if primary tabs are expanded for mobile layouts.
+     * Determines if primary tabs are expanded for mobile layout.
      *
      * @return {boolean}
      *   Whether the tabs trigger element is expanded.

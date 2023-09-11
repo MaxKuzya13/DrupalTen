@@ -134,7 +134,7 @@ class LayoutBuilderTranslationTest extends ContentTranslationTestBase {
   }
 
   /**
-   * Setup translated entity with layouts.
+   * Setup translated entity with layout.
    */
   protected function setUpEntities() {
     $this->drupalLogin($this->administrator);

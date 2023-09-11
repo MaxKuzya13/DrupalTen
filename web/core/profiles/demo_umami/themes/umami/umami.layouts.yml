@@ -1,6 +1,6 @@
 layout_oneplusfourgrid_section:
   label: 'One plus four grid'
-  path: layouts/oneplusfourgrid_section
+  path: layout/oneplusfourgrid_section
   template: layout--oneplusfourgrid-section
   library: umami/oneplusfourgrid_section
   category: 'Custom grid'

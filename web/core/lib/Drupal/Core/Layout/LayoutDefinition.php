@@ -33,7 +33,7 @@ class LayoutDefinition extends PluginDefinition implements PluginDefinitionInter
   protected $label;
 
   /**
-   * An optional description for advanced layouts.
+   * An optional description for advanced layout.
    *
    * @var string
    */

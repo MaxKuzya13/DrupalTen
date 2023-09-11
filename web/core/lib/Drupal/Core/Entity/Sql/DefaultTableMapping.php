@@ -201,7 +201,7 @@ class DefaultTableMapping implements TableMappingInterface {
       $table_mapping->setFieldNames($table_mapping->revisionTable, array_merge($revision_key_fields, $revisionable_fields));
     }
     elseif (!$revisionable && $translatable) {
-      // Multilingual layouts store key field values in the base table. The
+      // Multilingual layout store key field values in the base table. The
       // other base field values are stored in the data table, no matter
       // whether they are translatable or not. The data table holds also a
       // denormalized copy of the bundle field value to allow for more
