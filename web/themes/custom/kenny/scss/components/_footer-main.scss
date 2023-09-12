@@ -1,0 +1,59 @@
+@import "../base/variables";
+@import "../base/mixins";
+$social_icons: (
+  'facebook': 'facebook',
+  'github': 'github',
+  'twitter': 'twitter',
+  'linkedin': 'linkedin',
+  'youtube': 'youtube',
+);
+
+.footer {
+  background: #bdc3c7;
+  opacity: 80%;
+
+  &__content {
+    max-width: $container-max;
+    margin: 0 auto;
+  }
+
+  .menu--footer {
+    padding: 1rem;
+
+    .menu {
+      display: flex;
+      justify-content: center;
+
+      &-item {
+        display: inline-flex;
+        margin-right: 2rem;
+
+        a{
+          text-transform: uppercase;
+          font-weight: bold;
+          color: red;
+          opacity: 80%;
+          font-size: 1rem;
+
+          &:hover {
+            color: #1b5e20;
+          }
+        }
+      }
+    }
+  }
+
+  &-social {
+    &__items {
+      display: flex;
+      justify-content: center;
+
+      @include resetLi;
+    }
+
+    &__item {
+      margin-right: 1.5rem;
+    }
+
+  }
+}

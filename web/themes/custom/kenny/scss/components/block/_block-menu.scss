@@ -1,0 +1,10 @@
+@import "../../base/mixins";
+.block-menu {
+  .menu {
+    @include resetLi;
+    display: flex;
+    flex-direction: row;
+
+
+  }
+}

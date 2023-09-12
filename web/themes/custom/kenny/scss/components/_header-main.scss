@@ -1,0 +1,24 @@
+@import "../base/variables";
+@import "../base/mixins";
+.header {
+  position: relative;
+  &__top {
+    position: relative;
+    z-index: 20;
+    max-width: $container-max;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .menu-item {
+    display: inline-block;
+    margin-right: 1.5rem;
+    a {
+      color: #1b5e20;
+      text-decoration: none;
+    }
+  }
+}

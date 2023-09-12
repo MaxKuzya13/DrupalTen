@@ -1,4 +1,4 @@
-{% set bem_block = 'klog_hero' %}
+{% set bem_block = 'klog-hero' %}
 {% set classes = [
   bem_block,
   image and video ? bem_block ~ '--image-and-video',
@@ -9,7 +9,7 @@
 
 <div {{ attributes.addClass(classes) }}>
   {% if image and video %}
-    <video poster="{{ image|image_style('thumbnail') }}" autoplay loop muted class="{{ bem_block }}__video">
+    <video poster="{{ image|image_style('klog_hero') }}" autoplay loop muted class="{{ bem_block }}__video">
       {% for type, video_uti in video %}
         <source src="{{ file_url(video_uri) }}" type="{{ type }}">
       {% endfor %}
@@ -18,7 +18,7 @@
 
   {% elseif image %}
 
-    <img src="{{ image|image_style('thumbnail') }}" alt="{{ title }}" class="{{ bem_block }}__image">
+    <img src="{{ image|image_style('klog_hero') }}" alt="{{ title }}" class="{{ bem_block }}__image">
 
   {% endif %}
 

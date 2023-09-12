@@ -11,6 +11,8 @@ body {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -76,116 +78,137 @@ h6, .h6 {
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 p {
   font-size: 1rem;
   line-height: 1.5;
 }
 
-.button, .page-hero__actions a,
-a.button {
-  font-size: 1.25rem;
-  font-weight: 500;
-  line-height: 24px;
-  border: 0;
-  margin: 0;
-  padding: 12px 20px;
-  display: inline-flex;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  text-decoration: none;
+.header {
+  position: relative;
 }
-.button--primary, .page-hero__actions a,
-a.button--primary {
-  background: #FF5300;
-  color: #FFF;
-  border-radius: 4px;
-  box-shadow: 4px 5px 15px rgba(255, 83, 0, 0.4);
-}
-.button--outline,
-a.button--outline {
-  border: 1px solid #373737;
-  background: none;
-  color: #373737;
-  padding: 11px 19px;
-  border-radius: 4px;
-}
-.button--outline:hover,
-a.button--outline:hover {
-  border-color: #FF5300;
-  color: #FF5300;
-}
-
-.page__navbar {
-  box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.1);
-  background: #FFF;
-}
-
-.navbar {
-  padding: 24px 24px;
-}
-.navbar__container {
+.header__top {
+  position: relative;
+  z-index: 20;
   max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   display: flex;
+  flex-direction: row;
   align-items: center;
   gap: 48px;
 }
-.navbar__logo {
-  display: block;
-  height: 48px;
+.header .menu-item {
+  display: inline-block;
+  margin-right: 1.5rem;
 }
-.navbar .navigation .menu {
+.header .menu-item a {
+  color: #1b5e20;
+  text-decoration: none;
+}
+
+.footer {
+  background: #bdc3c7;
+  opacity: 80%;
+}
+.footer__content {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.footer .menu--footer {
+  padding: 1rem;
+}
+.footer .menu--footer .menu {
   display: flex;
+  justify-content: center;
+}
+.footer .menu--footer .menu-item {
+  display: inline-flex;
+  margin-right: 2rem;
+}
+.footer .menu--footer .menu-item a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: red;
+  opacity: 80%;
+  font-size: 1rem;
+}
+.footer .menu--footer .menu-item a:hover {
+  color: #1b5e20;
+}
+.footer-social__items {
+  display: flex;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.navbar .navigation .menu-item > a, .navbar .navigation .menu-item > span {
-  display: inline-flex;
-  font-size: 1.25rem;
-  line-height: 24px;
-  font-weight: 500;
-  color: #373737;
-  text-decoration: none;
-  padding: 12px 16px;
-}
-.navbar .navigation .menu-item > a:hover {
-  color: #FF5300;
-}
-.navbar__actions {
-  margin-left: auto;
+.footer-social__item {
+  margin-right: 1.5rem;
 }
 
-.page-hero {
-  background: #FFF7F4;
-  padding-top: 150px;
-  padding-bottom: 150px;
+.klog-hero {
+  position: relative;
+  z-index: 0;
+  margin-top: -36px;
+  height: 40rem;
+  overflow: hidden;
 }
-.page-hero__content {
+.klog-hero__content {
+  position: relative;
+  z-index: 10;
+  max-width: 1170px;
+  margin: 0 auto;
+  top: 150px;
+}
+.klog-hero__title {
+  color: white;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  font-weight: bold;
+}
+.klog-hero__subtitle {
+  max-width: 600px;
+}
+.klog-hero__subtitle p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px 0 rgba(44, 62, 80, 0.1);
+}
+.klog-hero__image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.klog-hero::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(15, 155, 15, 0.15));
+  background-repeat: no-repeat;
+}
+
+.block-menu .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
-  align-items: center;
-  gap: 24px 48px;
+  flex-direction: row;
 }
-.page-hero__group {
-  width: 480px;
+
+.block-system-branding-block .site-name {
+  font-size: 1.5rem;
 }
-.page-hero__title span {
-  color: #FF5300;
-}
-.page-hero__text {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-.page-hero__actions {
-  margin-top: 48px;
-}
-.page-hero__image {
-  width: calc(100% - 528px);
-}
-.page-hero__image img {
-  display: inline-block;
-  max-width: 100%;
-  height: auto;
+.block-system-branding-block .site-name a {
+  color: #63f38c;
+  text-decoration: none;
 }
