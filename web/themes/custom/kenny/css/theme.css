@@ -261,22 +261,12 @@ p {
 .paragraph-text-and-image--image-size-4-12-left .paragraph-text-and-image__field-image {
   flex: 0 0 32%;
 }
-.paragraph-text-and-image--image-size-4-12-left .paragraph-text-and-image__field-image img {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
-}
 .paragraph-text-and-image--image-size-4-12-left .paragraph-text-and-image__field-body {
   flex: 0 0 68%;
   padding-left: 4%;
 }
 .paragraph-text-and-image--image-size-6-12-left .paragraph-text-and-image__field-image {
   flex: 0 0 48%;
-}
-.paragraph-text-and-image--image-size-6-12-left .paragraph-text-and-image__field-image img {
-  width: 100%;
-  height: auto;
-  max-height: 700px;
 }
 .paragraph-text-and-image--image-size-6-12-left .paragraph-text-and-image__field-body {
   flex: 0 0 52%;
@@ -285,11 +275,6 @@ p {
 .paragraph-text-and-image--image-size-8-12-left .paragraph-text-and-image__field-image {
   flex: 0 0 68%;
   padding-right: 4%;
-}
-.paragraph-text-and-image--image-size-8-12-left .paragraph-text-and-image__field-image img {
-  width: 100%;
-  height: auto;
-  max-height: 1000px;
 }
 .paragraph-text-and-image--image-size-8-12-left .paragraph-text-and-image__field-body {
   flex: 0 0 32%;
@@ -302,11 +287,6 @@ p {
 }
 .paragraph-text-and-image--image-size-4-12-right .paragraph-text-and-image__field-image {
   flex: 0 0 32%;
-}
-.paragraph-text-and-image--image-size-4-12-right .paragraph-text-and-image__field-image img {
-  width: 100%;
-  height: auto;
-  max-height: 400px;
 }
 .paragraph-text-and-image--image-size-4-12-right .paragraph-text-and-image__field-body {
   flex: 0 0 68%;
@@ -321,11 +301,6 @@ p {
 .paragraph-text-and-image--image-size-6-12-right .paragraph-text-and-image__field-image {
   flex: 0 0 48%;
 }
-.paragraph-text-and-image--image-size-6-12-right .paragraph-text-and-image__field-image img {
-  width: 100%;
-  height: auto;
-  max-height: 700px;
-}
 .paragraph-text-and-image--image-size-6-12-right .paragraph-text-and-image__field-body {
   flex: 0 0 52%;
   padding-right: 4%;
@@ -339,11 +314,6 @@ p {
 .paragraph-text-and-image--image-size-8-12-right .paragraph-text-and-image__field-image {
   flex: 0 0 68%;
   padding-left: 4%;
-}
-.paragraph-text-and-image--image-size-8-12-right .paragraph-text-and-image__field-image img {
-  width: 100%;
-  height: auto;
-  max-height: 1000px;
 }
 .paragraph-text-and-image--image-size-8-12-right .paragraph-text-and-image__field-body {
   flex: 0 0 32%;
