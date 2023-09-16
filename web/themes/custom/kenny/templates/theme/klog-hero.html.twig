@@ -10,7 +10,7 @@
 <div {{ attributes.addClass(classes) }}>
   {% if image and video %}
     <video poster="{{ image|image_style('klog_hero') }}" autoplay loop muted class="{{ bem_block }}__video">
-      {% for type, video_uti in video %}
+      {% for type, video_uri in video %}
         <source src="{{ file_url(video_uri) }}" type="{{ type }}">
       {% endfor %}
       {{ 'Your browser does not support the video tag'|t }}

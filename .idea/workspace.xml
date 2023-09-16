@@ -5,23 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/assets/images/facebook-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_footer-main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_header-main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_klog-hero.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block/_block-menu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block/_block-system-branding-block.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block--klog-hero.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/block/block--system-branding-block.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/src/Plugin/KlogHero/Path/KlogBlog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/layout/_main-layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/page/_node-page-full.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/text-and-image/_paragraphs-text-and-image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/field/field--paragraph--field-title.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/field/field.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/templates/klog-hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sites/default/settings.local.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/sites/default/settings.local.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/TextAndImageBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/TextAndImageBehavior.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_layouts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_layouts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/base/_typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_footer-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer/_footer-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_header-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/header/_header-main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_klog-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block/_klog-hero.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,36 +169,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/kuzya/test-drupal-9&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.PHP&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
+    "last_opened_file_path": "/home/kuzya/my-drupal9-site",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/field" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/assets/images" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/block" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/header" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/block" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny" />
-      <recent name="$PROJECT_DIR$/web/themes" />
-      <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/Drush" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -216,7 +216,8 @@
       <workItem from="1694076631363" duration="11488000" />
       <workItem from="1694244510128" duration="16174000" />
       <workItem from="1694420644152" duration="14155000" />
-      <workItem from="1694506925747" duration="11716000" />
+      <workItem from="1694506925747" duration="13214000" />
+      <workItem from="1694851829595" duration="18139000" />
     </task>
     <servers />
   </component>

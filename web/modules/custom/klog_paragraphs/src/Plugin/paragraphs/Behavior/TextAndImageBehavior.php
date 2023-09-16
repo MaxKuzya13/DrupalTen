@@ -37,8 +37,8 @@ class TextAndImageBehavior extends ParagraphsBehaviorBase {
     $image_size = $paragraph->getBehaviorSetting($this->getPluginId(), 'image_size', '4_12');
     $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode);
 
-    $build['#attributes']['class'][] = Html::getClass($bem_block . '--image-position-' . $image_position);
-    $build['#attributes']['class'][] = Html::getClass($bem_block . '--image-size-' . $image_size);
+    $build['#attributes']['class'][] = Html::getClass($bem_block);
+    $build['#attributes']['class'][] = Html::getClass($bem_block . '--image-size-' . $image_size . '-' . $image_position);
 
     if (isset($build['field_image']) && $build['field_image']['#formatter'] == 'media_thumbnail') {
       switch ($image_size) {

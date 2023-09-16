@@ -54,7 +54,7 @@ interface KlogHeroPluginInterface extends PluginInspectionInterface {
    *
    * An array with link to the same video in different types
    *
-   * Keys of array is represents their type and value is file URI.
+   * Keys of array is represent their type and value is file URI.
    *
    * @code
    * return [

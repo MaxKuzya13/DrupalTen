@@ -1,0 +1,148 @@
+.paragraph-text-and-image {
+  display: flex;
+  flex-flow: row wrap;
+
+  &__field-title {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  // IMAGE LEFT
+
+  &--image-size-4-12-left {
+    .paragraph-text-and-image__field-image {
+      flex: 0 0 32%;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+      }
+    }
+
+    .paragraph-text-and-image__field-body {
+      flex: 0 0 68%;
+      padding-left: 4%;
+    }
+  }
+
+  &--image-size-6-12-left {
+    .paragraph-text-and-image__field-image {
+      flex: 0 0 48%;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 700px;
+      }
+    }
+
+    .paragraph-text-and-image__field-body {
+      flex: 0 0 52%;
+      padding-left: 4%;
+    }
+  }
+
+  &--image-size-8-12-left {
+    .paragraph-text-and-image__field-image {
+      flex: 0 0 68%;
+      padding-right: 4%;
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 1000px;
+      }
+    }
+
+    .paragraph-text-and-image__field-body {
+      flex: 0 0 32%;
+
+    }
+  }
+
+  // IMAGE RIGHT
+
+  &--image-size-4-12-right {
+
+    & > div {
+      &:nth-child(2){
+        order: 3;
+      }
+
+      &:nth-child(3){
+        order: 2;
+      }
+    }
+
+    .paragraph-text-and-image__field-image {
+      flex: 0 0 32%;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+      }
+    }
+
+    .paragraph-text-and-image__field-body {
+      flex: 0 0 68%;
+      padding-right: 4%;
+    }
+  }
+
+  &--image-size-6-12-right {
+
+    & > div {
+      &:nth-child(2){
+        order: 3;
+      }
+
+      &:nth-child(3){
+        order: 2;
+      }
+    }
+
+    .paragraph-text-and-image__field-image {
+      flex: 0 0 48%;
+
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 700px;
+      }
+    }
+
+    .paragraph-text-and-image__field-body {
+      flex: 0 0 52%;
+      padding-right: 4%;
+    }
+  }
+
+  &--image-size-8-12-right {
+
+    & > div {
+      &:nth-child(2){
+        order: 3;
+      }
+
+      &:nth-child(3){
+        order: 2;
+      }
+    }
+
+    .paragraph-text-and-image__field-image {
+      flex: 0 0 68%;
+      padding-left: 4%;
+      img {
+        width: 100%;
+        height: auto;
+        max-height: 1000px;
+      }
+    }
+
+    .paragraph-text-and-image__field-body {
+      flex: 0 0 32%;
+
+    }
+  }
+}

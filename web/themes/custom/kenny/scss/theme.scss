@@ -9,12 +9,31 @@
 @import "base/typography";
 
 // Components
-@import "components/button";
-@import "components/navbar";
-@import "components/header-main";
-@import "components/footer-main";
-@import "components/klog-hero";
+  // Block
 @import "components/block/block-menu";
 @import "components/block/block-system-branding-block";
+@import "components/block/klog-hero";
+
+  // Footer
+@import "components/footer/footer-main";
+
+  // Header
+@import "components/header/header-main";
+
+  // Layout
+@import "components/layout/main-layout";
+
+  // Node
+@import "components/node/page/node-page-full";
+
+  // Paragraph
+@import "components/paragraph/text-and-image/paragraphs-text-and-image";
+
+@import "components/button";
+@import "components/navbar";
+
+
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');

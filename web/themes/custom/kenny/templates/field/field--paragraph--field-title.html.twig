@@ -1,0 +1,15 @@
+{%
+  set classes = [
+  entity_type ~ '-' ~ element['#bundle']|clean_class ~ (element['#view_mode'] != 'default' ? '-' ~ element['#view_mode']),
+  entity_type ~ '-' ~ element['#bundle']|clean_class ~ (element['#view_mode'] != 'default' ? '-' ~ element['#view_mode']) ~ '__' ~ field_name|clean_class,
+  'paragraph-title',
+]
+%}
+{% set paragraph = element['#object'] %}
+{% set title_wrapper = paragraph.getBehaviorSetting('klog_paragraphs_paragraph_title', 'title_wrapper', 'h2') %}
+
+
+<{{ title_wrapper }}{{ attributes.addClass(classes) }}>
+  {{ items[0].content }}
+</{{ title_wrapper }}>
+

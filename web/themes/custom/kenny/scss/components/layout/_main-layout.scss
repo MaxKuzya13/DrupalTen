@@ -1,0 +1,20 @@
+@import "../../base/variables";
+@import "../../base/mixins";
+.main-layout {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .tabs, .primary {
+    display: inline-flex;
+    gap: 1.5rem;
+    @include resetLi;
+
+    li {
+      border: 1px solid cadetblue;
+      padding: 0.5rem;
+      border-radius: 15px;
+    }
+  }
+}

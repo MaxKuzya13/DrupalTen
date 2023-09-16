@@ -1,12 +1,5 @@
-@import "../base/variables";
-@import "../base/mixins";
-$social_icons: (
-  'facebook': 'facebook',
-  'github': 'github',
-  'twitter': 'twitter',
-  'linkedin': 'linkedin',
-  'youtube': 'youtube',
-);
+@import "../../base/variables";
+@import "../../base/mixins";
 
 .footer {
   background: #bdc3c7;
@@ -31,7 +24,7 @@ $social_icons: (
         a{
           text-transform: uppercase;
           font-weight: bold;
-          color: red;
+          color: black;
           opacity: 80%;
           font-size: 1rem;
 
@@ -43,17 +36,19 @@ $social_icons: (
     }
   }
 
-  &-social {
-    &__items {
-      display: flex;
-      justify-content: center;
+  &__up {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 
-      @include resetLi;
+    &:before {
+      content: "\F368";
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      font-weight: normal;
+      display: inline-block;
+      text-decoration: inherit;
+      margin-right: 0.4em;
     }
-
-    &__item {
-      margin-right: 1.5rem;
-    }
-
   }
 }

@@ -1,5 +1,5 @@
-@import '../base/variables';
-@import "../base/mixins";
+@import '../../base/variables';
+@import "../../base/mixins";
 .klog-hero {
   position: relative;
   z-index: 0;
@@ -33,6 +33,13 @@
   }
 
   &__image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__video {
     position: absolute;
     width: 100%;
     height: 100%;
