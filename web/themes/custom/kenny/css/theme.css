@@ -253,31 +253,29 @@ p {
 .paragraph-text-and-image {
   display: flex;
   flex-flow: row wrap;
+  gap: 1rem;
 }
 .paragraph-text-and-image__field-title {
   flex: 0 0 100%;
   width: 100%;
 }
 .paragraph-text-and-image--image-size-4-12-left .paragraph-text-and-image__field-image {
-  flex: 0 0 32%;
+  flex: 0 0 33%;
 }
 .paragraph-text-and-image--image-size-4-12-left .paragraph-text-and-image__field-body {
-  flex: 0 0 68%;
-  padding-left: 4%;
+  flex: 1;
 }
 .paragraph-text-and-image--image-size-6-12-left .paragraph-text-and-image__field-image {
-  flex: 0 0 48%;
+  flex: 0 0 50%;
 }
 .paragraph-text-and-image--image-size-6-12-left .paragraph-text-and-image__field-body {
-  flex: 0 0 52%;
-  padding-left: 4%;
+  flex: 1;
 }
 .paragraph-text-and-image--image-size-8-12-left .paragraph-text-and-image__field-image {
-  flex: 0 0 68%;
-  padding-right: 4%;
+  flex: 0 0 66%;
 }
 .paragraph-text-and-image--image-size-8-12-left .paragraph-text-and-image__field-body {
-  flex: 0 0 32%;
+  flex: 1;
 }
 .paragraph-text-and-image--image-size-4-12-right > div:nth-child(2) {
   order: 3;
@@ -286,11 +284,10 @@ p {
   order: 2;
 }
 .paragraph-text-and-image--image-size-4-12-right .paragraph-text-and-image__field-image {
-  flex: 0 0 32%;
+  flex: 0 0 34%;
 }
 .paragraph-text-and-image--image-size-4-12-right .paragraph-text-and-image__field-body {
-  flex: 0 0 68%;
-  padding-right: 4%;
+  flex: 1;
 }
 .paragraph-text-and-image--image-size-6-12-right > div:nth-child(2) {
   order: 3;
@@ -299,11 +296,10 @@ p {
   order: 2;
 }
 .paragraph-text-and-image--image-size-6-12-right .paragraph-text-and-image__field-image {
-  flex: 0 0 48%;
+  flex: 0 0 50%;
 }
 .paragraph-text-and-image--image-size-6-12-right .paragraph-text-and-image__field-body {
-  flex: 0 0 52%;
-  padding-right: 4%;
+  flex: 1;
 }
 .paragraph-text-and-image--image-size-8-12-right > div:nth-child(2) {
   order: 3;
@@ -312,9 +308,24 @@ p {
   order: 2;
 }
 .paragraph-text-and-image--image-size-8-12-right .paragraph-text-and-image__field-image {
-  flex: 0 0 68%;
-  padding-left: 4%;
+  flex: 0 0 66%;
 }
 .paragraph-text-and-image--image-size-8-12-right .paragraph-text-and-image__field-body {
-  flex: 0 0 32%;
+  flex: 1;
+}
+
+.paragraph-gallery--images-per-row-2 .field__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.paragraph-gallery--images-per-row-3 .field__items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.paragraph-gallery--images-per-row-4 .field__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }

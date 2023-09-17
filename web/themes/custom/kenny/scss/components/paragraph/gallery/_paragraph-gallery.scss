@@ -1,0 +1,29 @@
+.paragraph-gallery {
+  &--images-per-row-2 {
+    .field__items {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+  }
+
+  &--images-per-row-3 {
+    .field__items {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+
+    }
+  }
+
+  &--images-per-row-4 {
+    .field__items {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+
+    }
+  }
+
+
+}

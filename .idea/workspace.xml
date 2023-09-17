@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.ddev/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/gallery/_paragraph-gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/GalleryBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/GalleryBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/text-and-image/_paragraphs-text-and-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/text-and-image/_paragraph-text-and-image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +67,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MessDetectorBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
+    </option>
+  </component>
+  <component name="PHPCSFixerBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
+    </option>
+  </component>
+  <component name="PHPCodeSnifferBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
+    </option>
+  </component>
   <component name="PhpServers">
     <servers>
       <server host="my-drupal10-site.ddev.site" id="7c66f925-0932-4bff-a0ef-780f6ec5e790" name="my-drupal10-site.ddev.site" use_path_mappings="true">
@@ -72,6 +91,11 @@
         </path_mappings>
       </server>
     </servers>
+  </component>
+  <component name="PhpStanBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -178,10 +202,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "settings.php.debug.servers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="PsalmBlackList">
+    <option name="filePaths">
+      <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
+    </option>
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/field" />
