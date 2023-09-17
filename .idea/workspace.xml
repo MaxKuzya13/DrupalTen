@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/src/Plugin/KlogHero/Path/KlogBlog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/layout/_main-layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/page/_node-page-full.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/text-and-image/_paragraphs-text-and-image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/field/field--paragraph--field-title.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/field/field.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ddev/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.ddev/config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/TextAndImageBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/TextAndImageBehavior.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_footer-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer/_footer-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_header-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/header/_header-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/_klog-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block/_klog-hero.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/footer.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +62,16 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="my-drupal10-site.ddev.site" id="7c66f925-0932-4bff-a0ef-780f6ec5e790" name="my-drupal10-site.ddev.site" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/var/www/html/web" />
+          <mapping local-root="$PROJECT_DIR$/web" remote-root="/var/www/html/web" />
+        </path_mappings>
+      </server>
+    </servers>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
@@ -171,17 +167,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Constants": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal9-site",
+    "last_opened_file_path": "/etc/php/8.2/cli/conf.d/20-xdebug.ini",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.sourceCode.PHP",
+    "settings.editor.selected.configurable": "settings.php.debug.servers",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -194,11 +191,11 @@
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.ddev" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/header" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/block" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

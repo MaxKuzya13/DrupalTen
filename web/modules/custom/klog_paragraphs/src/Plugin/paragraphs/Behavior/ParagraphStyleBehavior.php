@@ -30,16 +30,16 @@ class ParagraphStyleBehavior extends ParagraphsBehaviorBase {
   }
 
   /**
-   * Extends the paragraph render array with behavior
+   * {@inheritdoc}
    */
   public function view(array &$build, Paragraph $paragraph, EntityViewDisplayInterface $display, $view_mode) {
     $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode);
     $selected_styles = $paragraph->getBehaviorSetting($this->getPluginId(), 'styles', []);
 
     foreach ($selected_styles as $style) {
-      $build['#attributes']['class'][] = Html::getClass($bem_block . '--' . $style);
+        $build['#attributes']['class'][] = Html::getClass($bem_block . '--' . $style);
+      }
     }
-  }
 
   /**
    * {@inheritdoc}
@@ -54,16 +54,15 @@ class ParagraphStyleBehavior extends ParagraphsBehaviorBase {
 
    $styles = $this->getStyles($paragraph);
    $selected_styles = $paragraph->getBehaviorSetting($this->getPluginId(), 'styles', []);
+     foreach ($styles as $group_id => $group) {
 
-   foreach ($styles as $group_id => $group) {
-
-     $form['style_wrapper'][$group_id] = [
-       '#type' => 'checkboxes',
-       '#title' => $group['label'],
-       '#options' => $group['options'],
-       '#default_value' => $selected_styles,
-     ];
-   }
+       $form['style_wrapper'][$group_id] = [
+         '#type' => 'checkboxes',
+         '#title' => $group['label'],
+         '#options' => $group['options'],
+         '#default_value' => $selected_styles,
+       ];
+     }
 
     return $form;
   }
@@ -90,9 +89,14 @@ class ParagraphStyleBehavior extends ParagraphsBehaviorBase {
 
   /**
    * Return styles for paragraph.
+   *
+   * @param \Drupal\paragraphs\ParagraphInterface
+   *   The paragraph.
+   *
+   * @return array
+   *   The array of styles.
    */
   public function getStyles(ParagraphInterface $paragraph) {
-    $style = [];
 
     if($paragraph->hasField('field_title')) {
       $style['title'] = [
@@ -110,6 +114,7 @@ class ParagraphStyleBehavior extends ParagraphsBehaviorBase {
         'style_black' => $this->t('Style black'),
       ],
     ];
+
 
     return $style;
   }
