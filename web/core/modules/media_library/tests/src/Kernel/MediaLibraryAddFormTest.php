@@ -59,7 +59,7 @@ class MediaLibraryAddFormTest extends KernelTestBase {
     $this->createUser([]);
 
     $this->createMediaType('image', ['id' => 'image']);
-    $this->createMediaType('oembed:video', ['id' => 'remote_video']);
+    $this->createMediaType('oembed:video', ['id' => 'remote-video']);
   }
 
   /**
@@ -68,7 +68,7 @@ class MediaLibraryAddFormTest extends KernelTestBase {
   public function testMediaTypeAddForm() {
     $entity_type_manager = \Drupal::entityTypeManager();
     $image = $entity_type_manager->getStorage('media_type')->load('image');
-    $remote_video = $entity_type_manager->getStorage('media_type')->load('remote_video');
+    $remote_video = $entity_type_manager->getStorage('media_type')->load('remote-video');
     $image_source_definition = $image->getSource()->getPluginDefinition();
     $remote_video_source_definition = $remote_video->getSource()->getPluginDefinition();
 
@@ -79,7 +79,7 @@ class MediaLibraryAddFormTest extends KernelTestBase {
     // Assert the media library UI does not contains the add form when the user
     // does not have access.
     $this->assertEmpty($this->buildLibraryUi('image')['content']['form']);
-    $this->assertEmpty($this->buildLibraryUi('remote_video')['content']['form']);
+    $this->assertEmpty($this->buildLibraryUi('remote-video')['content']['form']);
 
     // Create a user that has access to create the image media type but not the
     // remote video media type.
@@ -89,17 +89,17 @@ class MediaLibraryAddFormTest extends KernelTestBase {
     // Assert the media library UI only contains the add form for the image
     // media type.
     $this->assertSame('managed_file', $this->buildLibraryUi('image')['content']['form']['container']['upload']['#type']);
-    $this->assertEmpty($this->buildLibraryUi('remote_video')['content']['form']);
+    $this->assertEmpty($this->buildLibraryUi('remote-video')['content']['form']);
 
     // Create a user that has access to create both media types.
     $this->setCurrentUser($this->createUser([
       'create image media',
-      'create remote_video media',
+      'create remote-video media',
     ]));
     // Assert the media library UI only contains the add form for both media
     // types.
     $this->assertSame('managed_file', $this->buildLibraryUi('image')['content']['form']['container']['upload']['#type']);
-    $this->assertSame('url', $this->buildLibraryUi('remote_video')['content']['form']['container']['url']['#type']);
+    $this->assertSame('url', $this->buildLibraryUi('remote-video')['content']['form']['container']['url']['#type']);
   }
 
   /**
@@ -112,7 +112,7 @@ class MediaLibraryAddFormTest extends KernelTestBase {
    *   The render array for the media library.
    */
   protected function buildLibraryUi($selected_type_id) {
-    $state = MediaLibraryState::create('test', ['image', 'remote_video'], $selected_type_id, -1);
+    $state = MediaLibraryState::create('test', ['image', 'remote-video'], $selected_type_id, -1);
     return \Drupal::service('media_library.ui_builder')->buildUi($state);
   }
 
@@ -130,7 +130,7 @@ class MediaLibraryAddFormTest extends KernelTestBase {
    * Tests the validation of the selected type in the media library add form.
    */
   public function testSelectedTypeValidation() {
-    $state = MediaLibraryState::create('test', ['image', 'remote_video', 'header_image'], 'header_image', -1);
+    $state = MediaLibraryState::create('test', ['image', 'remote-video', 'header_image'], 'header_image', -1);
     $form_state = new FormState();
     $form_state->set('media_library_state', $state);
     $this->expectException(\InvalidArgumentException::class);

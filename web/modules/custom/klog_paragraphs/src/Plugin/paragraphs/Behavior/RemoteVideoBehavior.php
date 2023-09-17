@@ -26,7 +26,7 @@ class RemoteVideoBehavior extends ParagraphsBehaviorBase {
    * {@inheritdoc}
    */
   public static function isApplicable (ParagraphsType $paragraphs_type) {
-    return $paragraphs_type->id() === 'remote_video';
+    return $paragraphs_type->id() === 'remote-video';
   }
 
   /**
@@ -36,6 +36,7 @@ class RemoteVideoBehavior extends ParagraphsBehaviorBase {
     $max_video_width = $paragraph->getBehaviorSetting($this->getPluginId(), 'video_width', 'full');
     $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode);
 
+    $build['#attributes']['class'][] = Html::getClass($bem_block);
     $build['#attributes']['class'][] = Html::getClass($bem_block . '--video-width-' . $max_video_width);
   }
 

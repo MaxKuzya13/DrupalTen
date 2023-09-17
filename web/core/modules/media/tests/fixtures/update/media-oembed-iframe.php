@@ -14,7 +14,7 @@ $media_type = [];
 $media_type['langcode'] = 'en';
 $media_type['status'] = TRUE;
 $media_type['dependencies'] = [];
-$media_type['id'] = 'remote_video';
+$media_type['id'] = 'remote-video';
 $media_type['uuid'] = 'c86d3b5c-b788-49ab-a06c-257895e47731';
 $media_type['label'] = 'Remote video';
 $media_type['description'] = 'A remotely hosted video from YouTube or Vimeo.';
@@ -40,7 +40,7 @@ $connection->insert('config')
   ])
   ->values([
     'collection' => '',
-    'name' => 'media.type.remote_video',
+    'name' => 'media.type.remote-video',
     'data' => serialize($media_type),
   ])
   ->execute();
@@ -50,12 +50,12 @@ $connection->insert('config')
 $display = [];
 $display['langcode'] = 'en';
 $display['status'] = TRUE;
-$display['dependencies']['config'][] = 'media.type.remote_video';
+$display['dependencies']['config'][] = 'media.type.remote-video';
 $display['dependencies']['module'][] = 'media';
-$display['id'] = 'media.remote_video.default';
+$display['id'] = 'media.remote-video.default';
 $display['uuid'] = 'ff13f7fb-d493-4d45-a56d-31a1a0762df7';
 $display['targetEntityType'] = 'media';
-$display['bundle'] = 'remote_video';
+$display['bundle'] = 'remote-video';
 $display['mode'] = 'default';
 $display['content']['field_media_oembed_video'] = [
   'type' => 'oembed',
@@ -77,7 +77,7 @@ $connection->insert('config')
   ])
   ->values([
     'collection' => '',
-    'name' => 'core.entity_view_display.media.remote_video.default',
+    'name' => 'core.entity_view_display.media.remote-video.default',
     'data' => serialize($display),
   ])
   ->execute();

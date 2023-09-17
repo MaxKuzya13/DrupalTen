@@ -1,0 +1,9 @@
+.paragraph-remote-video {
+  &--video-width-720px {
+    .media-remote-video__field-media-oembed-video {
+      max-width: 720px;
+      display: flex;
+      margin: 0 auto;
+    }
+  }
+}

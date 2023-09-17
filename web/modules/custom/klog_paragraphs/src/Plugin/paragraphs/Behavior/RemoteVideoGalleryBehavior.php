@@ -35,6 +35,7 @@ class RemoteVideoGalleryBehavior extends ParagraphsBehaviorBase {
   public function view (array &$build, Paragraph $paragraph, EntityViewDisplayInterface $display, $view_mode) {
     $videos_per_row = $paragraph->getBehaviorSetting($this->getPluginId(), 'items_per_row', 4);
     $bem_block = 'paragraph-' . $paragraph->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode);
+    $build['#attributes']['class'][] = Html::getClass($bem_block);
     $build['#attributes']['class'][] = Html::getClass($bem_block . '--videos-per-row-' . $videos_per_row);
 
   }

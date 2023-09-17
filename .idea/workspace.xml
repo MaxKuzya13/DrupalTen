@@ -5,12 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/gallery/_paragraph-gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/media/remote-video/_media-remote-video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/_paragraph-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/remote-video-gallery/_paragraph-remote-video-gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/remote-video/_paragraph-remote-video.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/media.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/GalleryBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/GalleryBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/fixtures/update/media-oembed-iframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/fixtures/update/media-oembed-iframe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/src/Functional/FieldFormatter/OembedUpdateTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/src/Functional/FieldFormatter/OembedUpdateTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/MediaStandardProfileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/MediaStandardProfileTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media_library/tests/src/Kernel/MediaLibraryAddFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media_library/tests/src/Kernel/MediaLibraryAddFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.media_library.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_view_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_view_display.media.remote_video.default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_view_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_view_display.media.remote_video.media_library.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/field.field.media.remote_video.field_media_oembed_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/field.field.media.remote_video.field_media_oembed_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.basic_html.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.basic_html.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.full_html.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.full_html.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/media.type.remote_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/media.type.remote_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.media_library.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.media_library.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/field.field.media.remote_video.field_media_oembed_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/field.field.media.remote_video.field_media_oembed_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/media.type.remote_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/media.type.remote_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/core.entity_view_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/core.entity_view_display.media.remote_video.default.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.media.remote_video.field_media_oembed_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.media.remote_video.field_media_oembed_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.node.page.field_media.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.node.page.field_media.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/media.type.remote_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/media.type.remote_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoGalleryBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoGalleryBehavior.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/text-and-image/_paragraphs-text-and-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/text-and-image/_paragraph-text-and-image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/page/_node-page-full.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/page/_node-page-full.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/gallery/_paragraph-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/gallery/_paragraph-gallery.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,7 +224,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/etc/php/8.2/cli/conf.d/20-xdebug.ini",
+    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/content",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -214,11 +242,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/field" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/assets/images" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/block" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/.ddev" />

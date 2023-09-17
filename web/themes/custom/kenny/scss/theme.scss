@@ -23,12 +23,19 @@
   // Layout
 @import "components/layout/main-layout";
 
+  // Media
+@import "components/media/remote-video/media-remote-video";
+
   // Node
 @import "components/node/page/node-page-full";
 
   // Paragraph
+@import "components/paragraph/paragraph-style";
 @import "components/paragraph/text-and-image/paragraph-text-and-image";
 @import "components/paragraph/gallery/paragraph-gallery";
+@import "components/paragraph/remote-video/paragraph-remote-video";
+@import "components/paragraph/remote-video-gallery/paragraph-remote-video-gallery";
+
 
 @import "components/button";
 @import "components/navbar";
