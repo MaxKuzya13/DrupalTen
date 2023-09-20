@@ -6,12 +6,12 @@ use Drupal\Component\Plugin\CategorizingPluginManagerInterface;
 use Drupal\Core\Plugin\FilteredPluginManagerInterface;
 
 /**
- * Provides the interface for a plugin manager of layout.
+ * Provides the interface for a plugin manager of layouts.
  */
 interface LayoutPluginManagerInterface extends CategorizingPluginManagerInterface, FilteredPluginManagerInterface {
 
   /**
-   * Gets theme implementations for layout.
+   * Gets theme implementations for layouts.
    *
    * @return array
    *   An associative array of the same format as returned by hook_theme().

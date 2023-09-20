@@ -1,6 +1,6 @@
 layout_twocol_section:
   label: 'Two column'
-  path: layout/twocol_section
+  path: layouts/twocol_section
   template: layout--twocol-section
   library: layout_builder/twocol_section
   class: '\Drupal\layout_builder\Plugin\Layout\TwoColumnLayout'
@@ -16,7 +16,7 @@ layout_twocol_section:
 
 layout_threecol_section:
   label: 'Three column'
-  path: layout/threecol_section
+  path: layouts/threecol_section
   template: layout--threecol-section
   library: layout_builder/threecol_section
   class: '\Drupal\layout_builder\Plugin\Layout\ThreeColumnLayout'
@@ -34,7 +34,7 @@ layout_threecol_section:
 
 layout_fourcol_section:
   label: 'Four column'
-  path: layout/fourcol_section
+  path: layouts/fourcol_section
   template: layout--fourcol-section
   library: layout_builder/fourcol_section
   category: 'Columns: 4'

@@ -83,7 +83,7 @@ class Stable9LibraryOverrideTest extends StableLibraryOverrideTestBase {
           // folder structure.
           $replacements = [
             "core/modules/$extension/css/" => "core/themes/stable9/css/$extension/",
-            "core/modules/$extension/layout/" => "core/themes/stable9/layout/$extension/",
+            "core/modules/$extension/layouts/" => "core/themes/stable9/layouts/$extension/",
           ];
           $expected_path = strtr($expected_path, $replacements);
           $assert_path = str_replace("core/modules/$extension/", '', $clean_path);

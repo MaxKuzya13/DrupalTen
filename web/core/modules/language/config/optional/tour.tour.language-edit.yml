@@ -36,7 +36,7 @@ tips:
     label: 'Language direction'
     weight: 4
     selector: '#edit-direction--wrapper--description'
-    body: '<p>Choose if the language is a "Left to right" or "Right to left" language.</p><p>Note that not all themes support "Right to left" layout, so test your theme if you are using "Right to left".</p>'
+    body: '<p>Choose if the language is a "Left to right" or "Right to left" language.</p><p>Note that not all themes support "Right to left" layouts, so test your theme if you are using "Right to left".</p>'
   language-edit-continue:
     id: language-edit-continue
     plugin: text

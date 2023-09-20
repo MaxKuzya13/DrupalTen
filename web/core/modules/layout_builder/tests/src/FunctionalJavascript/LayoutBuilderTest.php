@@ -261,7 +261,7 @@ class LayoutBuilderTest extends WebDriverTestBase {
   }
 
   /**
-   * Tests configurable layout.
+   * Tests configurable layouts.
    */
   public function testConfigurableLayoutSections() {
     $layout_url = 'node/1/layout';
@@ -441,12 +441,12 @@ class LayoutBuilderTest extends WebDriverTestBase {
   }
 
   /**
-   * Enable layout.
+   * Enable layouts.
    *
    * @param string $path
    *   The path for the manage display page.
    * @param bool $allow_custom
-   *   Whether to allow custom layout.
+   *   Whether to allow custom layouts.
    */
   private function enableLayoutsForBundle($path, $allow_custom = FALSE) {
     $assert_session = $this->assertSession();

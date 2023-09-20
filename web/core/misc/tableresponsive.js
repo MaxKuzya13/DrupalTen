@@ -11,7 +11,7 @@
    * important columns visible to the end user. Users should not be prevented
    * from accessing all columns, however. This class adds a toggle to a table
    * with hidden columns that exposes the columns. Exposing the columns will
-   * likely break layout, but it provides the user with a means to access
+   * likely break layouts, but it provides the user with a means to access
    * data, which is a guiding principle of responsive design.
    *
    * @constructor Drupal.TableResponsive

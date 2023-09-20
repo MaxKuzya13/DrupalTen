@@ -71,7 +71,7 @@ class LayoutPluginManagerTest extends UnitTestCase {
     $this->moduleHandler->moduleExists('core')->willReturn(FALSE);
     $this->moduleHandler->moduleExists('invalid_provider')->willReturn(FALSE);
 
-    $module_a = new Extension('vfs://root', 'module', 'modules/module_a/module_a.layout.yml');
+    $module_a = new Extension('vfs://root', 'module', 'modules/module_a/module_a.layouts.yml');
     $this->moduleHandler->getModule('module_a')->willReturn($module_a);
     $this->moduleHandler->getModuleDirectories()->willReturn(['module_a' => vfsStream::url('root/modules/module_a')]);
     $this->moduleHandler->alter('layout', Argument::type('array'))->shouldBeCalled();
@@ -82,7 +82,7 @@ class LayoutPluginManagerTest extends UnitTestCase {
     $this->themeHandler->themeExists('core')->willReturn(FALSE);
     $this->themeHandler->themeExists('invalid_provider')->willReturn(FALSE);
 
-    $theme_a = new Extension('vfs://root', 'theme', 'themes/theme_a/theme_a.layout.yml');
+    $theme_a = new Extension('vfs://root', 'theme', 'themes/theme_a/theme_a.layouts.yml');
     $this->themeHandler->getTheme('theme_a')->willReturn($theme_a);
     $this->themeHandler->getThemeDirectories()->willReturn(['theme_a' => vfsStream::url('root/themes/theme_a')]);
 
@@ -151,7 +151,7 @@ class LayoutPluginManagerTest extends UnitTestCase {
     $this->assertInstanceOf(TranslatableMarkup::class, $layout_definition->getCategory());
     $this->assertInstanceOf(TranslatableMarkup::class, $layout_definition->getDescription());
     $this->assertNull($layout_definition->getTemplate());
-    $this->assertSame('modules/module_a/layout', $layout_definition->getPath());
+    $this->assertSame('modules/module_a/layouts', $layout_definition->getPath());
     $this->assertSame('module_a/onecol', $layout_definition->getLibrary());
     $this->assertSame('onecol', $layout_definition->getThemeHook());
     $this->assertNull($layout_definition->getTemplatePath());
@@ -213,7 +213,7 @@ EOS;
     vfsStream::create([
       'modules' => [
         'module_a' => [
-          'module_a.layout.yml' => $module_a_provided_layout,
+          'module_a.layouts.yml' => $module_a_provided_layout,
         ],
       ],
     ]);
@@ -306,7 +306,7 @@ module_a_provided_layout:
   category: 'Columns: 1'
   description: 'A module provided layout'
   theme_hook: onecol
-  path: layout
+  path: layouts
   library: module_a/onecol
   regions:
     top:
@@ -358,14 +358,14 @@ EOS;
     vfsStream::create([
       'modules' => [
         'module_a' => [
-          'module_a.layout.yml' => $module_a_provided_layout,
+          'module_a.layouts.yml' => $module_a_provided_layout,
         ],
       ],
     ]);
     vfsStream::create([
       'themes' => [
         'theme_a' => [
-          'theme_a.layout.yml' => $theme_a_provided_layout,
+          'theme_a.layouts.yml' => $theme_a_provided_layout,
         ],
       ],
     ]);

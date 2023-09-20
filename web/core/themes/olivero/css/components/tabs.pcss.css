@@ -1,6 +1,6 @@
 @import "../base/media-queries.pcss.css";
 
-/* Breakpoint where tabs switch between vertical and horizontal layout. */
+/* Breakpoint where tabs switch between vertical and horizontal layouts. */
 @custom-media --tabs-layout-switch (--md);
 
 .tabs {

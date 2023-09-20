@@ -27,3 +27,27 @@ theme:
   css:
     theme:
       css/theme.css: {}
+
+paragraph.code:
+  js:
+    assets/js/paragraph-code.js: {}
+  dependencies:
+    - kenny/highlight.js
+    - core/drupal
+    - core/jquery
+    - core/once
+
+    # Third party libraries
+highlight.js:
+  remote: false
+  version: 11.8.0
+  license:
+    name: BSD
+    gpl-compatible: true
+  css:
+    theme:
+      /libraries/highlight.js/styles/a11y-dark.css: {}
+  js:
+    /libraries/highlight.js/lib/core.js: {}
+
+

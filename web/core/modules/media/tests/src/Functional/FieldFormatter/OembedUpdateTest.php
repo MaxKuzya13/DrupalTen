@@ -46,13 +46,13 @@ class OembedUpdateTest extends UpdatePathTestBase {
    * @legacy
    */
   public function testUpdate(): void {
-    $this->expectDeprecation('The oEmbed loading attribute update for view display "media.remote-video.default" is deprecated in drupal:10.1.0 and is removed from drupal:11.0.0. Profile, module and theme provided configuration should be updated to accommodate the changes described at https://www.drupal.org/node/3275103.');
-    $data = EntityViewDisplay::load('media.remote-video.default')->toArray();
+    $this->expectDeprecation('The oEmbed loading attribute update for view display "media.remote_video.default" is deprecated in drupal:10.1.0 and is removed from drupal:11.0.0. Profile, module and theme provided configuration should be updated to accommodate the changes described at https://www.drupal.org/node/3275103.');
+    $data = EntityViewDisplay::load('media.remote_video.default')->toArray();
     $this->assertArrayNotHasKey('loading', $data['content']['field_media_oembed_video']['settings']);
 
     $this->runUpdates();
 
-    $data = EntityViewDisplay::load('media.remote-video.default')->toArray();
+    $data = EntityViewDisplay::load('media.remote_video.default')->toArray();
     $this->assertArrayHasKey('loading', $data['content']['field_media_oembed_video']['settings']);
     $this->assertEquals('eager', $data['content']['field_media_oembed_video']['settings']['loading']['attribute']);
   }

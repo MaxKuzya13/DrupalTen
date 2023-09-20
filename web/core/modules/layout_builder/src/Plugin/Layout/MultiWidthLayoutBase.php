@@ -7,7 +7,7 @@ use Drupal\Core\Layout\LayoutDefault;
 use Drupal\Core\Plugin\PluginFormInterface;
 
 /**
- * Base class of layout with configurable widths.
+ * Base class of layouts with configurable widths.
  *
  * @internal
  *   Plugin classes are internal.

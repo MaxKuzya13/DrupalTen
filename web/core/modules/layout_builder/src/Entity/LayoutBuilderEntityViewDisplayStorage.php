@@ -7,7 +7,7 @@ use Drupal\Core\Entity\EntityInterface;
 use Drupal\layout_builder\Section;
 
 /**
- * Provides storage for entity view display entities that have layout.
+ * Provides storage for entity view display entities that have layouts.
  *
  * @internal
  *   Entity handlers are internal.

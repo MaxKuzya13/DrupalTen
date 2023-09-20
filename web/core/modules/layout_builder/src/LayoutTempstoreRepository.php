@@ -5,7 +5,7 @@ namespace Drupal\layout_builder;
 use Drupal\Core\TempStore\SharedTempStoreFactory;
 
 /**
- * Provides a mechanism for loading layout from tempstore.
+ * Provides a mechanism for loading layouts from tempstore.
  */
 class LayoutTempstoreRepository implements LayoutTempstoreRepositoryInterface {
 

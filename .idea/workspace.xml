@@ -5,16 +5,288 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/media/remote-video/_media-remote-video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/_paragraph-style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/remote-video-gallery/_paragraph-remote-video-gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/remote-video/_paragraph-remote-video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/media.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/assets/js/paragraph-code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/paragraph.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/code/_paragraph-code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/paragraph/field--paragraph--field-title--code.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/psysh" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/psysh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/bin/var-dump-server" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/bin/var-dump-server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/UPGRADING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/ClientInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/Handler/CurlMultiHandler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/HandlerStack.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatterInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/MessageFormatterInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/RedirectMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/TransferStats.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle/src/TransferStats.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectionException.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises/src/RejectionException.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/vendor-bin/php-cs-fixer/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/vendor-bin/phpstan/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/promises/vendor-bin/psalm/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/AppendStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/FnStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Header.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/HttpFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/HttpFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/InflateStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Message.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Message.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MessageTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MimeType.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MimeType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/MultipartStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/PumpStream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Query.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Query.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Rfc7230.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Rfc7230.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/ServerRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Stream.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamDecoratorTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/StreamWrapper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/UriResolver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Utils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7/src/Utils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/mck89/peast/.github/workflows/test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mck89/peast/.github/workflows/test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/mck89/peast/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mck89/peast/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/mck89/peast/doc/changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mck89/peast/doc/changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/mck89/peast/lib/Peast/Renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/mck89/peast/lib/Peast/Renderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/HelpCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/HelpCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ListCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ParseCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ParseCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ReflectingCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ReflectingCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/SudoCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/SudoCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ThrowUpCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/ThrowUpCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TimeitCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Command/TimeitCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop/RunkitReloader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/ExecutionLoop/RunkitReloader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/Shell.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/Shell.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psy/psysh/src/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psy/psysh/src/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleSectionOutput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/ConsoleSectionOutput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Argument/LazyClosure.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Argument/LazyClosure.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Attribute/AutowireCallable.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Attribute/AutowireCallable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/Configurator/ContainerConfigurator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/Configurator/ContainerConfigurator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/File/UploadedFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/Request.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-foundation/StreamedResponse.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-foundation/StreamedResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/DependencyInjection/RegisterControllerArgumentLocatorsPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/HttpKernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/http-kernel/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/http-kernel/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php72/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php80/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/process/Process.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/process/Process.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Debug/TraceableNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Debug/TraceableNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/NameConverter/MetadataAwareNameConverter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/NameConverter/MetadataAwareNameConverter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/AbstractNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/AbstractNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/AbstractObjectNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/AbstractObjectNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/ConstraintViolationListNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/ConstraintViolationListNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/CustomNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/CustomNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DataUriNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DataUriNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DateIntervalNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DateIntervalNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DateTimeNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DateTimeNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DateTimeZoneNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/DateTimeZoneNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/GetSetMethodNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/GetSetMethodNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/JsonSerializableNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/JsonSerializableNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/MimeMessageNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/MimeMessageNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/ObjectNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/ObjectNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/ProblemNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/ProblemNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/PropertyNormalizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Normalizer/PropertyNormalizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/serializer/Serializer.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/serializer/Serializer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/validator/Command/DebugCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/validator/Command/DebugCommand.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/validator/Constraint.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/validator/Constraint.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/var-dumper/Dumper/CliDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/MAINTAINERS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/MAINTAINERS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/alignment/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/basic-styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/basic-styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/basic-styles/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/block-quote/block-quote.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/block-quote/block-quote.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/ckeditor5-dll.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/ckeditor5-dll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ast.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/az.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/az.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/bg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/bn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/bn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ca.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/cs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/da.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/de-ch.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/de-ch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/de.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/el.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/en-au.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/en-au.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/en-gb.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/en-gb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/eo.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/eo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/es.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/et.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/et.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/eu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/eu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/fr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/he.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/hu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/id.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/it.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ja.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/km.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/km.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/kn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/kn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ko.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ku.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ku.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/lt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/lv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/lv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ms.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/nb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ne.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/nl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/no.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/no.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pt-br.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pt-br.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/pt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ru.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sr-latn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sr-latn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/sv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/th.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tt.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/tt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/uk.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/uk.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ur.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/ur.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/uz.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/uz.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/vi.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/zh-cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/zh-cn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/zh.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/ckeditor5-dll/translations/zh.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/code-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/code-block/code-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-classic/editor-classic.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-classic/editor-classic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-decoupled/editor-decoupled.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/editor-decoupled/editor-decoupled.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/heading.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/heading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/ug.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/heading/translations/ug.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/horizontal-line.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/horizontal-line/horizontal-line.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/html-support.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/html-support/html-support.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/image.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/image/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/link.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/link/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/list/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/paste-from-office/paste-from-office.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/paste-from-office/paste-from-office.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/source-editing.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/source-editing/source-editing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/special-characters.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/special-characters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/gl.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/gl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/special-characters/translations/hr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/style/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/style/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/assets/vendor/ckeditor5/table/translations/sq.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/core.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/core.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/core.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/core.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/includes/theme.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/includes/theme.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Component/Transliteration/data/xc0.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Component/Transliteration/data/xc0.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Asset/JsOptimizer.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Asset/JsOptimizer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Entity/Sql/DefaultTableMapping.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Entity/Sql/DefaultTableMapping.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Field/WidgetBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Field/WidgetBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/Annotation/Layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/Annotation/Layout.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutDefinition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManagerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Layout/LayoutPluginManagerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Render/Renderer.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Render/Renderer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Theme/Registry.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/lib/Drupal/Core/Theme/Registry.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/misc/tableresponsive.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/misc/tableresponsive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/breakpoint/breakpoint.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/breakpoint/breakpoint.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/ckeditor5.types.jsdoc" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/ckeditor5.types.jsdoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalImage.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalImage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalMedia.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/build/drupalMedia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimageediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalImage/src/drupalimageediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptionediting.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/drupalmediacaption/drupalmediacaptionediting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/js/ckeditor5_plugins/drupalMedia/src/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5Plugin/SourceEditing.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/src/Plugin/CKEditor5Plugin/SourceEditing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5AllowedTagsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/CKEditor5AllowedTagsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/ImageTestBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/ImageTestBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/SourceEditingTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/SourceEditingTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/StyleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/FunctionalJavascript/StyleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/SourceEditingPluginTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/ckeditor5/tests/src/Unit/SourceEditingPluginTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/field_layout/field_layout.install" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_layout/field_layout.install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/field_layout/src/Entity/FieldLayoutEntityDisplayTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_layout/src/Entity/FieldLayoutEntityDisplayTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/field_layout/tests/src/FunctionalJavascript/FieldLayoutTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/field_layout/tests/src/FunctionalJavascript/FieldLayoutTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/forum/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/forum/tests/fixtures/drupal7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/language/config/optional/tour.tour.language-edit.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/language/config/optional/tour.tour.language-edit.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/language/src/LanguageNegotiationMethodManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/language/src/LanguageNegotiationMethodManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.layouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.layouts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/layout_builder.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Controller/ChooseSectionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Controller/ChooseSectionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Entity/LayoutBuilderEntityViewDisplayStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Entity/LayoutBuilderEntityViewDisplayStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Form/LayoutBuilderEntityViewDisplayForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Form/LayoutBuilderEntityViewDisplayForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepositoryInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/LayoutTempstoreRepositoryInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/Layout/MultiWidthLayoutBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/Layout/MultiWidthLayoutBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/SectionStorage/OverridesSectionStorage.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/src/Plugin/SectionStorage/OverridesSectionStorage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/modules/layout_builder_theme_suggestions_test/layout_builder_theme_suggestions_test.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/modules/layout_builder_theme_suggestions_test/layout_builder_theme_suggestions_test.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderFormModeTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderFormModeTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTranslationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Functional/LayoutBuilderTranslationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/InlineBlockPrivateFilesTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/InlineBlockPrivateFilesTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/FunctionalJavascript/LayoutBuilderTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Kernel/TranslatableFieldTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_builder/tests/src/Kernel/TranslatableFieldTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.layouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.layouts.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/layout_discovery/layout_discovery.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/media/src/Plugin/Field/FieldFormatter/OEmbedFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/src/Plugin/Field/FieldFormatter/OEmbedFormatter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/fixtures/update/media-oembed-iframe.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/fixtures/update/media-oembed-iframe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/src/Functional/FieldFormatter/OembedUpdateTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/src/Functional/FieldFormatter/OembedUpdateTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/MediaStandardProfileTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media/tests/src/FunctionalJavascript/MediaStandardProfileTest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/modules/media_library/tests/src/Kernel/MediaLibraryAddFormTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/media_library/tests/src/Kernel/MediaLibraryAddFormTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/migrate_drupal/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/migrate_drupal/tests/fixtures/drupal7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/node/node.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/node/node.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/pgsql/src/Driver/Database/pgsql/Connection.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/pgsql/src/Driver/Database/pgsql/Connection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/layout_test/layout_test.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/layout_test/layout_test.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/system/tests/modules/plugin_test/src/Plugin/MockBlockManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/system/tests/modules/plugin_test/src/Plugin/MockBlockManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/taxonomy/tests/src/Functional/Views/TaxonomyIndexTidUiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/taxonomy/tests/src/Functional/Views/TaxonomyIndexTidUiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/toolbar/js/toolbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/toolbar/js/toolbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/toolbar/toolbar.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/toolbar/toolbar.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/toolbar/toolbar.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/toolbar/toolbar.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/tracker/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/tracker/tests/fixtures/drupal7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/user/src/Controller/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/user/src/Controller/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/user/src/Form/EntityPermissionsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/user/src/Form/EntityPermissionsForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/user/tests/src/Functional/UserPasswordResetTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/user/tests/src/Functional/UserPasswordResetTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views/js/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views/src/ManyToOneHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views/src/ManyToOneHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views/src/Plugin/views/query/MysqlDateSql.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views/src/Plugin/views/query/MysqlDateSql.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views/tests/src/FunctionalJavascript/PaginationAJAXTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views/tests/src/FunctionalJavascript/PaginationAJAXTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views/tests/src/Unit/Plugin/views/query/MysqlDateSqlTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views/tests/src/Unit/Plugin/views/query/MysqlDateSqlTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/TranslatedViewTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/tests/src/Functional/TranslatedViewTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/modules/views_ui/views_ui.links.task.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/modules/views_ui/views_ui.links.task.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/phpstan-baseline.neon" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/phpstan-baseline.neon" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.default.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_form_display.media.remote_video.media_library.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_view_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/core.entity_view_display.media.remote_video.default.yml" afterDir="false" />
@@ -23,22 +295,73 @@
       <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.basic_html.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.basic_html.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.full_html.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/filter.format.full_html.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/media.type.remote_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/config/install/media.type.remote_video.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.layouts.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/demo_umami/themes/umami/umami.layouts.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.default.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_form_display.media.remote_video.media_library.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.default.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.media_library.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/core.entity_view_display.media.remote_video.media_library.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/field.field.media.remote_video.field_media_oembed_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/field.field.media.remote_video.field_media_oembed_video.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/media.type.remote_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/profiles/standard/config/optional/media.type.remote_video.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/core.entity_view_display.media.remote_video.default.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/core.entity_view_display.media.remote_video.default.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.media.remote_video.field_media_oembed_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.media.remote_video.field_media_oembed_video.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.node.page.field_media.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/field.field.node.page.field_media.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/media.type.remote_video.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/twig_tweak/tests/twig_tweak_test/config/install/media.type.remote_video.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/ParagraphStyleBehavior.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoBehavior.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoGalleryBehavior.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_paragraphs/src/Plugin/paragraphs/Behavior/RemoteVideoGalleryBehavior.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/scripts/dev/commit-code-check.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/scripts/dev/commit-code-check.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Theme/Stable9LibraryOverrideTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Theme/Stable9LibraryOverrideTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Theme/ThemeInstallerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/Core/Theme/ThemeInstallerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/KernelTestBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/KernelTests/KernelTestBase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Asset/JsOptimizerUnitTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Asset/JsOptimizerUnitTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Layout/LayoutPluginManagerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Layout/LayoutPluginManagerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Render/RendererTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/Core/Render/RendererTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/UiHelperTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/tests/Drupal/Tests/UiHelperTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/claro/claro.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/claro/claro.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/claro/claro.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/claro/claro.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-site-branding.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-site-branding.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-site-branding.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-site-branding.pcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/header-sticky-toggle.pcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/tabs.pcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/components/wide-image.pcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.pcss.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/css/layout/layout-footer.pcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/olivero/js/tabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/olivero/js/tabs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/themes/stable9/stable9.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/themes/stable9/stable9.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/core/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/web/core/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-options.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-options.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-tasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/gulp-tasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/paragraphs.admin.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/css/paragraphs.admin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/js/paragraphs.add_above_button.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/js/paragraphs.add_above_button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_demo/paragraphs_demo.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_demo/paragraphs_demo.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/paragraphs_library.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/paragraphs_library.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/paragraphs_library.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/paragraphs_library.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/src/Form/LibraryItemSettingsForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/src/Form/LibraryItemSettingsForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/src/LibraryItemInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/src/LibraryItemInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/src/Routing/LibraryItemRouteProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/src/Routing/LibraryItemRouteProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/Functional/ParagraphsLibraryItemTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/Functional/ParagraphsLibraryItemTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/Functional/ParagraphsLibraryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/Functional/ParagraphsLibraryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/FunctionalJavascript/ParagraphsContentModerationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/FunctionalJavascript/ParagraphsContentModerationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/FunctionalJavascript/ParagraphsLibraryItemEntityBrowserTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_library/tests/src/FunctionalJavascript/ParagraphsLibraryItemEntityBrowserTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_type_permissions/paragraphs_type_permissions.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_type_permissions/paragraphs_type_permissions.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_type_permissions/tests/src/Functional/ParagraphsTypePermissionsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/modules/paragraphs_type_permissions/tests/src/Functional/ParagraphsTypePermissionsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/paragraphs.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/paragraphs.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/paragraphs.install" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/paragraphs.install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/paragraphs.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/paragraphs.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Entity/Paragraph.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Entity/Paragraph.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/fixtures/drupal7.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/fixtures/drupal7.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/fixtures/update/drupal-8.8.standard.paragraphs_demo.php.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/modules/paragraphs_test/paragraphs_test.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/modules/paragraphs_test/paragraphs_test.info.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/Migrate/MigrateUiParagraphsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/Migrate/MigrateUiParagraphsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/ParagraphsUiTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/ParagraphsUiTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/ParagraphsUpdateTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetLegacy/ParagraphsAdministrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetLegacy/ParagraphsAdministrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetLegacy/ParagraphsTranslationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetLegacy/ParagraphsTranslationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetStable/ParagraphsAdministrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetStable/ParagraphsAdministrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetStable/ParagraphsTranslationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Functional/WidgetStable/ParagraphsTranslationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Kernel/migrate/ParagraphContentMigrationTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Kernel/migrate/ParagraphContentMigrationTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Traits/ParagraphsCoreVersionUiTestTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/paragraphs/tests/src/Traits/ParagraphsCoreVersionUiTestTrait.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/page/_node-page-full.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/page/_node-page-full.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/gallery/_paragraph-gallery.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/paragraph/gallery/_paragraph-gallery.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.libraries.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.libraries.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.theme" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.theme" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +410,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -207,6 +532,8 @@
       <path value="$PROJECT_DIR$/vendor/grasmash/expander" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/vendor/npm-asset/highlight.js" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -217,24 +544,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Constants": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/content",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.php.debug.servers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Constants&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/content&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.php.debug.servers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PsalmBlackList">
     <option name="filePaths">
       <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
@@ -273,6 +600,7 @@
       <workItem from="1694420644152" duration="14155000" />
       <workItem from="1694506925747" duration="13214000" />
       <workItem from="1694851829595" duration="18139000" />
+      <workItem from="1695200930665" duration="6766000" />
     </task>
     <servers />
   </component>

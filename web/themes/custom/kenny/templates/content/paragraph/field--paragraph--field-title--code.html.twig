@@ -1,0 +1,13 @@
+{%
+  set classes = [
+  entity_type ~ '-' ~ element['#bundle']|clean_class ~ (element['#view_mode'] != 'default' ? '-' ~ element['#view_mode']),
+  entity_type ~ '-' ~ element['#bundle']|clean_class ~ (element['#view_mode'] != 'default' ? '-' ~ element['#view_mode']) ~ '__' ~ field_name|clean_class,
+]
+%}
+{% set paragraph = element['#object'] %}
+
+
+<div {{ attributes.addClass(classes) }}>
+{{ items[0].content }}
+</div>
+

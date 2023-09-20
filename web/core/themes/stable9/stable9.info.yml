@@ -110,23 +110,23 @@ libraries-override:
   layout_discovery/onecol:
     css:
       theme:
-        layouts/onecol/onecol.css: layout/layout_discovery/onecol/onecol.css
+        layouts/onecol/onecol.css: layouts/layout_discovery/onecol/onecol.css
   layout_discovery/twocol_bricks:
     css:
       theme:
-        layouts/twocol_bricks/twocol_bricks.css: layout/layout_discovery/twocol_bricks/twocol_bricks.css
+        layouts/twocol_bricks/twocol_bricks.css: layouts/layout_discovery/twocol_bricks/twocol_bricks.css
   layout_discovery/twocol:
     css:
       theme:
-        layouts/twocol/twocol.css: layout/layout_discovery/twocol/twocol.css
+        layouts/twocol/twocol.css: layouts/layout_discovery/twocol/twocol.css
   layout_discovery/threecol_25_50_25:
     css:
       theme:
-        layouts/threecol_25_50_25/threecol_25_50_25.css: layout/layout_discovery/threecol_25_50_25/threecol_25_50_25.css
+        layouts/threecol_25_50_25/threecol_25_50_25.css: layouts/layout_discovery/threecol_25_50_25/threecol_25_50_25.css
   layout_discovery/threecol_33_34_33:
     css:
       theme:
-        layouts/threecol_33_34_33/threecol_33_34_33.css: layout/layout_discovery/threecol_33_34_33/threecol_33_34_33.css
+        layouts/threecol_33_34_33/threecol_33_34_33.css: layouts/layout_discovery/threecol_33_34_33/threecol_33_34_33.css
 
   layout_builder/drupal.layout_builder:
     css:
@@ -135,15 +135,15 @@ libraries-override:
   layout_builder/twocol_section:
     css:
       theme:
-        layouts/twocol_section/twocol_section.css:  layout/layout_builder/twocol_section/twocol_section.css
+        layouts/twocol_section/twocol_section.css:  layouts/layout_builder/twocol_section/twocol_section.css
   layout_builder/threecol_section:
     css:
       theme:
-        layouts/threecol_section/threecol_section.css: layout/layout_builder/threecol_section/threecol_section.css
+        layouts/threecol_section/threecol_section.css: layouts/layout_builder/threecol_section/threecol_section.css
   layout_builder/fourcol_section:
     css:
       theme:
-        layouts/fourcol_section/fourcol_section.css: layout/layout_builder/fourcol_section/fourcol_section.css
+        layouts/fourcol_section/fourcol_section.css: layouts/layout_builder/fourcol_section/fourcol_section.css
 
   locale/drupal.locale.admin:
     css:

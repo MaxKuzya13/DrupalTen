@@ -72,7 +72,7 @@
   Drupal.behaviors.toolbar = {
     attach(context) {
       // Verify that the user agent understands media queries. Complex admin
-      // toolbar layout require media query support.
+      // toolbar layouts require media query support.
       if (!window.matchMedia('only screen').matches) {
         return;
       }

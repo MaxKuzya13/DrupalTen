@@ -2075,8 +2075,8 @@ class ParagraphsWidget extends WidgetBase {
         foreach ($field_storage['#fields'] as $field_name => $widget_state) {
           if (isset($widget_state['paragraphs'])) {
 
-            // If the parent field does not exist, but we have paragraphs in
-            // widget state, something went wrong. And we have a mismatch.
+            // If the parent field does not exist but we have paragraphs in
+            // widget state, something went wrong and we have a mismatch.
             // Throw an exception.
             if (!$parent_entity->hasField($field_name) && !empty($widget_state['paragraphs'])) {
               throw new \LogicException('Reordering paragraphs resulted in paragraphs on non-existing field ' . $field_name . ' on parent entity ' . $parent_entity->getEntityTypeId() . '/' . $parent_entity->id());
@@ -2215,7 +2215,7 @@ class ParagraphsWidget extends WidgetBase {
    * {@inheritdoc}
    */
   public function errorElement(array $element, ConstraintViolationInterface $error, array $form, FormStateInterface $form_state) {
-    // Validation errors might be about a specific (behavior) form element
+    // Validation errors might be a about a specific (behavior) form element
     // attempt to find a matching element.
     if (!empty($error->arrayPropertyPath) && $sub_element = NestedArray::getValue($element, $error->arrayPropertyPath)) {
       return $sub_element;
@@ -2443,7 +2443,7 @@ class ParagraphsWidget extends WidgetBase {
 
     // Update #title attribute for all elements that are allowed to have a
     // #title attribute according to the Form API Reference. The reason for this
-    // check is that some elements have a #title attribute even though it is
+    // check is because some elements have a #title attribute even though it is
     // not rendered; for instance, field containers.
     if (isset($element['#type']) && isset($fapi_title_elements[$element['#type']]) && isset($element['#title'])) {
       $element['#title'] .= $suffix;

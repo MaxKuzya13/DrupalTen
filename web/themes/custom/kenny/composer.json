@@ -1,0 +1,14 @@
+{
+    "name": "Kenny",
+    "description": "The kenny theme",
+    "type": "drupal-custom-theme",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "npm-asset/highlight.js": "11.8.0"
+    }
+}

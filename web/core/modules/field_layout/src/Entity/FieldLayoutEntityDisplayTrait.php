@@ -60,7 +60,7 @@ trait FieldLayoutEntityDisplayTrait {
     }
     $this->setThirdPartySetting('field_layout', 'id', $layout_id);
     // Instantiate the plugin and consult it for the updated plugin
-    // configuration. Once layout are no longer stored as third party settings,
+    // configuration. Once layouts are no longer stored as third party settings,
     // this will be handled by the code in
     // \Drupal\Core\Config\Entity\ConfigEntityBase::set() that handles
     // \Drupal\Core\Entity\EntityWithPluginCollectionInterface.
@@ -113,7 +113,7 @@ trait FieldLayoutEntityDisplayTrait {
   public function preSave(EntityStorageInterface $storage) {
     parent::preSave($storage);
 
-    // Ensure the plugin configuration is updated. Once layout are no longer
+    // Ensure the plugin configuration is updated. Once layouts are no longer
     // stored as third party settings, this will be handled by the code in
     // \Drupal\Core\Config\Entity\ConfigEntityBase::preSave() that handles
     // \Drupal\Core\Entity\EntityWithPluginCollectionInterface.
@@ -136,7 +136,7 @@ trait FieldLayoutEntityDisplayTrait {
   /**
    * Overrides \Drupal\Core\Entity\EntityDisplayBase::calculateDependencies().
    *
-   * Ensure the plugin dependencies are included. Once layout are no longer
+   * Ensure the plugin dependencies are included. Once layouts are no longer
    * stored as third party settings, this will be handled by the code in
    * \Drupal\Core\Config\Entity\ConfigEntityBase::calculateDependencies() that
    * handles \Drupal\Core\Entity\EntityWithPluginCollectionInterface.

@@ -1,6 +1,6 @@
 layout_onecol:
   label: 'One column'
-  path: layout/onecol
+  path: layouts/onecol
   template: layout--onecol
   library: layout_discovery/onecol
   category: 'Columns: 1'
@@ -13,7 +13,7 @@ layout_onecol:
 
 layout_twocol:
   label: 'Two column'
-  path: layout/twocol
+  path: layouts/twocol
   template: layout--twocol
   library: layout_discovery/twocol
   category: 'Columns: 2'
@@ -34,7 +34,7 @@ layout_twocol:
 
 layout_twocol_bricks:
   label: 'Two column bricks'
-  path: layout/twocol_bricks
+  path: layouts/twocol_bricks
   template: layout--twocol-bricks
   library: layout_discovery/twocol_bricks
   category: 'Columns: 2'
@@ -63,7 +63,7 @@ layout_twocol_bricks:
 
 layout_threecol_25_50_25:
   label: 'Three column 25/50/25'
-  path: layout/threecol_25_50_25
+  path: layouts/threecol_25_50_25
   template: layout--threecol-25-50-25
   library: layout_discovery/threecol_25_50_25
   category: 'Columns: 3'
@@ -86,7 +86,7 @@ layout_threecol_25_50_25:
 
 layout_threecol_33_34_33:
   label: 'Three column 33/34/33'
-  path: layout/threecol_33_34_33
+  path: layouts/threecol_33_34_33
   template: layout--threecol-33-34-33
   library: layout_discovery/threecol_33_34_33
   category: 'Columns: 3'

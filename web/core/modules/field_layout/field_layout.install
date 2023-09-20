@@ -33,7 +33,7 @@ function field_layout_install() {
  */
 function field_layout_uninstall() {
   // Reset each entity display to use the one-column layout to best approximate
-  // the absence of layout.
+  // the absence of layouts.
   $entity_save = function (EntityDisplayInterface $entity) {
     if ($entity instanceof EntityDisplayWithLayoutInterface) {
       $entity->setLayoutId('layout_onecol')->save();

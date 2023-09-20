@@ -17,7 +17,7 @@ module.exports = function(gulp, plugins, options) {
 
   // Defining gulp tasks.
 
-  gulp.task('scss', function() {
+  gulp.task('sass', function() {
     return gulp.src(options.scssSrc + '*.scss')
       .pipe(plugins.sass({
         outputStyle: 'expanded',
@@ -27,11 +27,11 @@ module.exports = function(gulp, plugins, options) {
       .pipe(gulp.dest(options.cssDest));
   });
 
-  gulp.task('scss:lint', function () {
+  gulp.task('sass:lint', function () {
     return gulp.src(options.scssSrc + '*.scss')
       .pipe(plugins.postcss(options.processors, {syntax: plugins.syntax_scss}))
   });
 
   // Default task to run everything in correct order.
-  gulp.task('default', gulp.series(gulp.parallel('scss:lint', 'scss')));
+  gulp.task('default', gulp.series(gulp.parallel('sass:lint', 'sass')));
 };

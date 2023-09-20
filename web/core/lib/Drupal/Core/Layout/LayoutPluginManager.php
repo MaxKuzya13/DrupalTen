@@ -16,7 +16,7 @@ use Drupal\Core\Plugin\FilteredPluginManagerTrait;
 use Drupal\Core\StringTranslation\TranslatableMarkup;
 
 /**
- * Provides a plugin manager for layout.
+ * Provides a plugin manager for layouts.
  */
 class LayoutPluginManager extends DefaultPluginManager implements LayoutPluginManagerInterface {
 
@@ -71,7 +71,7 @@ class LayoutPluginManager extends DefaultPluginManager implements LayoutPluginMa
   protected function getDiscovery() {
     if (!$this->discovery) {
       $discovery = new AnnotatedClassDiscovery($this->subdir, $this->namespaces, $this->pluginDefinitionAnnotationName, $this->additionalAnnotationNamespaces);
-      $discovery = new YamlDiscoveryDecorator($discovery, 'layout', $this->moduleHandler->getModuleDirectories() + $this->themeHandler->getThemeDirectories());
+      $discovery = new YamlDiscoveryDecorator($discovery, 'layouts', $this->moduleHandler->getModuleDirectories() + $this->themeHandler->getThemeDirectories());
       $discovery
         ->addTranslatableProperty('label')
         ->addTranslatableProperty('description')

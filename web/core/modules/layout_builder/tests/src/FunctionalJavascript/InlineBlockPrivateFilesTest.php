@@ -68,7 +68,7 @@ class InlineBlockPrivateFilesTest extends InlineBlockTestBase {
       ->setOverridable()
       ->save();
 
-    // Log in as user you can only configure layout and access content.
+    // Log in as user you can only configure layouts and access content.
     $this->drupalLogin($this->drupalCreateUser([
       'access contextual links',
       'configure any layout',

@@ -31,10 +31,12 @@
 
   // Paragraph
 @import "components/paragraph/paragraph-style";
-@import "components/paragraph/text-and-image/paragraph-text-and-image";
+
+@import "components/paragraph/code/paragraph-code";
 @import "components/paragraph/gallery/paragraph-gallery";
 @import "components/paragraph/remote-video/paragraph-remote-video";
 @import "components/paragraph/remote-video-gallery/paragraph-remote-video-gallery";
+@import "components/paragraph/text-and-image/paragraph-text-and-image";
 
 
 @import "components/button";

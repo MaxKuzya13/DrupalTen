@@ -73,7 +73,7 @@ class MediaStandardProfileTest extends MediaJavascriptTestBase {
             'audio' => 'audio',
             'document' => 'document',
             'image' => 'image',
-            'remote-video' => 'remote-video',
+            'remote_video' => 'remote_video',
             'video' => 'video',
           ],
         ],
@@ -377,7 +377,7 @@ class MediaStandardProfileTest extends MediaJavascriptTestBase {
   }
 
   /**
-   * Tests the standard profile configuration for media type 'remote-video'.
+   * Tests the standard profile configuration for media type 'remote_video'.
    */
   protected function remoteVideoTest() {
     $assert_session = $this->assertSession();
@@ -393,7 +393,7 @@ class MediaStandardProfileTest extends MediaJavascriptTestBase {
     ResourceController::setResourceUrl($video_url_updated, $this->getFixturesDirectory() . '/video_youtube.json');
 
     // Check if the name field is properly hidden on the media form.
-    $this->drupalGet('media/add/remote-video');
+    $this->drupalGet('media/add/remote_video');
     $assert_session->fieldNotExists('name');
 
     // Check if the source field is available.

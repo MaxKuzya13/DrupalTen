@@ -52,7 +52,7 @@ class FieldLayoutTest extends WebDriverTestBase {
   }
 
   /**
-   * Tests that layout are unique per view mode.
+   * Tests that layouts are unique per view mode.
    */
   public function testEntityViewModes() {
     // By default, the field is not visible.
@@ -93,7 +93,7 @@ class FieldLayoutTest extends WebDriverTestBase {
     $this->assertEquals(['Content', 'Disabled'], $this->getRegionTitles());
 
     // Switch the layout to two columns.
-    $this->click('#edit-field-layout');
+    $this->click('#edit-field-layouts');
     $this->getSession()->getPage()->selectFieldOption('field_layout', 'layout_twocol');
     $this->assertSession()->assertWaitOnAjaxRequest();
     $this->submitForm([], 'Save');
@@ -159,7 +159,7 @@ class FieldLayoutTest extends WebDriverTestBase {
     $this->assertEquals(['Content', 'Disabled'], $this->getRegionTitles());
 
     // Switch the layout to two columns.
-    $this->click('#edit-field-layout');
+    $this->click('#edit-field-layouts');
     $this->getSession()->getPage()->selectFieldOption('field_layout', 'layout_twocol');
     $this->assertSession()->assertWaitOnAjaxRequest();
     $this->submitForm([], 'Save');
@@ -220,9 +220,9 @@ class FieldLayoutTest extends WebDriverTestBase {
   public function testLayoutForms() {
     $this->drupalGet('entity_test/structure/entity_test/display');
     // Switch to a field layout with settings.
-    $this->click('#edit-field-layout');
+    $this->click('#edit-field-layouts');
 
-    // Test switching between layout with and without forms.
+    // Test switching between layouts with and without forms.
     $this->getSession()->getPage()->selectFieldOption('field_layout', 'layout_test_plugin');
     $this->assertSession()->assertWaitOnAjaxRequest();
     $this->assertSession()->fieldExists('settings_wrapper[layout_settings][setting_1]');
@@ -246,7 +246,7 @@ class FieldLayoutTest extends WebDriverTestBase {
 
     // Update the field layout settings.
     $this->drupalGet('entity_test/structure/entity_test/display');
-    $this->click('#edit-field-layout');
+    $this->click('#edit-field-layouts');
     $this->getSession()->getPage()->fillField('settings_wrapper[layout_settings][setting_1]', 'Test text');
     $this->submitForm([], 'Save');
 
@@ -270,7 +270,7 @@ class FieldLayoutTest extends WebDriverTestBase {
     $assert_session->fieldValueEquals('fields[field_test_text][type]', 'text_default');
 
     // Switch the layout to two columns.
-    $this->click('#edit-field-layout');
+    $this->click('#edit-field-layouts');
     $page->selectFieldOption('field_layout', 'layout_twocol');
     $assert_session->assertWaitOnAjaxRequest();
     $page->pressButton('Save');

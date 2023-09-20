@@ -4,12 +4,12 @@
 scssSrc: "./"
 cssDest: "./"
 
-# This are the paths that will be added to scss search paths for include.
+# This are the paths that will be added to sass search paths for include.
 # @todo - note that we are not using this for now really, this pattern will
 # maybe make sense for more complex CSS work that we will do. If this is not
 # reused in near future lets consider to remove it.
 sassIncludePaths:
-  - "./scss/"
+  - "./sass/"
   - "./node_modules/"
 
 # Automatically load any gulp plugins in package.json.
