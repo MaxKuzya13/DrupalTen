@@ -1,0 +1,5 @@
+name: 'KLOG - Blog article'
+type: module
+description: 'The custom code for blog article node type'
+package: klog
+core_version_requirement: ^10
