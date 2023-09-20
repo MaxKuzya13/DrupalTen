@@ -6,6 +6,7 @@
  */
 
 use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+use Drupal\imagemagick\ImagemagickExecArguments;
 use Drupal\node\Entity\NodeType;
 use Drupal\node\NodeInterface;
 
@@ -50,4 +51,13 @@ function klog_node_view(array &$build, NodeInterface $node, EntityViewDisplayInt
       '#entity' => $node,
     ];
   }
+}
+
+/**
+ * Implements hook_imagemagick_arguments_alter().
+ */
+function klog_imagemagick_arguments_alter(ImagemagickExecArguments $arguments, $command) {
+  $arguments->add('-sampling-factor 4:2:0');
+  $arguments->add('-interlace Plane');
+  $arguments->add('-strip');
 }

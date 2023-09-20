@@ -40,7 +40,7 @@ class TextAndImageBehavior extends ParagraphsBehaviorBase {
     $build['#attributes']['class'][] = Html::getClass($bem_block);
     $build['#attributes']['class'][] = Html::getClass($bem_block . '--image-size-' . $image_size . '-' . $image_position);
 
-    if (isset($build['field_image']) && $build['field_image']['#formatter'] == 'media_thumbnail') {
+    if (isset($build['field_image']) && $build['field_image']['#formatter'] == 'photoswipe_field_formatter') {
       switch ($image_size) {
         case '4_12':
         default:
@@ -55,8 +55,7 @@ class TextAndImageBehavior extends ParagraphsBehaviorBase {
           $image_style = 'paragraph_text_and_image_8_of_12';
           break;
       };
-
-      $build['field_image'][0]['#image_style'] = $image_style;
+      $build['field_image'][0]['#display_settings']['photoswipe_node_style'] = $image_style;
     };
   }
 
