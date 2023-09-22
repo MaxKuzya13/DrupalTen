@@ -5,6 +5,7 @@
   z-index: 0;
   margin-top: -36px;
   height: 40rem;
+  padding-bottom: 100px;
   overflow: hidden;
 
   &__content {
@@ -54,5 +55,23 @@
     @include scaleImage;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(15, 155, 15, 0.15));
     background-repeat: no-repeat;
+  }
+
+  // For blog article.
+  &__tags {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  &__tag {
+    display: block;
+    background: rgba(blue, 0.3);
+    color: white;
+    padding: 4px 1rem;
+
+    &:hover {
+      background: rgba(green, 0.3);
+    }
   }
 }

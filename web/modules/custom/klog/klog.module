@@ -20,38 +20,11 @@ function klog_theme ($existing, $type, $path) {
         'entity' => NULL,
       ],
       'file' => 'klog.theme.inc',
+      'pattern' => 'klog_previous_next__',
     ],
   ];
 }
 
-/**
- * Implements hook_entity_extra_field_info().
- */
-function klog_entity_extra_field_info() {
-  $extra = [];
-
-  foreach (NodeType::loadMultiple() as $bundle) {
-    $extra['node'][$bundle->id()]['display']['previous_next'] = [
-      'label' => t('Buttons to previous and next entity '),
-      'weight' => 100,
-      'visible' => FALSE,
-    ];
-  }
-
-  return $extra;
-}
-
-/**
- * Implements hook_ENTITY_TYPE_view().
- */
-function klog_node_view(array &$build, NodeInterface $node, EntityViewDisplayInterface $display, $view_mode) {
-  if ($display->getComponent('previous_next')) {
-    $build['previous_next'] = [
-      '#theme' => 'klog_previous_next',
-      '#entity' => $node,
-    ];
-  }
-}
 
 /**
  * Implements hook_imagemagick_arguments_alter().

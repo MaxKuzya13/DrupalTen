@@ -9,12 +9,26 @@
 ]
 %}
 
+{%
+  set bem_block = 'node-' ~ node.bundle|clean_class ~ (view_mode != default ? '-' ~ view_mode)|clean_class
+%}
+
 
 {% block node %}
   <article {{ attributes.addClass(classes) }}>
-    {{ url }}
-    {{ content }}
-    TEST
+    {{ content.field_promo_image }}
+
+    <h4 class="{{ bem_block }}__title"><a href="{{ url }}">{{ label }}</a></h4>
+
+    {{ content.field_tags }}
+
+    <div class="{{ bem_block }}__meta">
+      <div class="{{ bem_block }}__created">{{ node.getCreatedTime|date('d.m.y') }}</div>
+      {{ content.estimated_read_time }}
+    </div>
+
+
+
   </article>
 
 {% endblock %}

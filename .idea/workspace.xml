@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="" />
+    <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/assets/images/calendar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/theme.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/blog-article/_node-blog-article-full.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/blog-article/_node-blog-article-teaser.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/theme/_previous-next.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/views/_articles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/field/image.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/region.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero--klog-node-blog-article.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-previous-next--blog-article.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/klog.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/klog.theme.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.theme.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/src/Plugin/KlogHero/Entity/NodeBlogArticle.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog/src/Plugin/KlogHero/Entity/NodeBlogArticle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/Block/KlogHeroBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/Block/KlogHeroBlock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.theme" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/kenny.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block/_klog-hero.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block/_klog-hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/layout/_main-layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/layout/_main-layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/node.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/node.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/node/blog-article/node--blog-article--teaser.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/node/blog-article/node--blog-article--teaser.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/views/views-view.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/views/views-view.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -175,6 +206,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
       <path value="$PROJECT_DIR$/vendor/npm-asset/highlight.js" />
+      <path value="$PROJECT_DIR$/vendor/fileeye/pel" />
+      <path value="$PROJECT_DIR$/vendor/fileeye/mimemap" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/photoswipe" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -242,6 +277,7 @@
       <workItem from="1694506925747" duration="13214000" />
       <workItem from="1694851829595" duration="18139000" />
       <workItem from="1695200930665" duration="6766000" />
+      <workItem from="1695393490481" duration="6370000" />
     </task>
     <servers />
   </component>

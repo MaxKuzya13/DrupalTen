@@ -94,6 +94,10 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/wikimedia/composer-merge-plugin" />
       <path value="$PROJECT_DIR$/vendor/npm-asset/highlight.js" />
+      <path value="$PROJECT_DIR$/vendor/fileeye/pel" />
+      <path value="$PROJECT_DIR$/vendor/fileeye/mimemap" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/bower-asset/photoswipe" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.1">

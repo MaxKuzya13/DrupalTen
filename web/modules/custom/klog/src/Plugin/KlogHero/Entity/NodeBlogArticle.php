@@ -8,7 +8,7 @@ use Drupal\klog_hero\Plugin\KlogHero\Entity\KlogHeroEntityPluginBase;
  * Hero block for blog_article node type.
  *
  * @KlogHeroEntity (
- *   id = "klog_noge_blog_article",
+ *   id = "klog_node_blog_article",
  *   entity_type = "node",
  *   entity_bundle = {"blog_article"}
  * )

@@ -6,6 +6,7 @@
   not image ? bem_block ~ '--plain',
   subtitle ? bem_block ~ '--subtitle' : bem_block ~ '--no-subtitle',
 ] %}
+
 <div {{ attributes.addClass(classes) }}>
   {% if image and video %}
     <video poster="{{ image|image_style('klog_hero') }}" autoplay loop muted class="{{ bem_block }}__video">
@@ -22,6 +23,16 @@
   {% endif %}
 
   <div class="{{ bem_block }}__content">
+
+    {% if tags %}
+      <div class="{{ bem_block }}__tags">
+        {% for tag in tags %}
+          <a href="{{ tag.path }}" class="{{ bem_block }}__tag">
+            {{ tag.label }}
+          </a>
+        {% endfor %}
+      </div>
+    {% endif %}
     <h1 class="{{ bem_block }}__title">{{ title }}</h1>
 
     {% if subtitle %}

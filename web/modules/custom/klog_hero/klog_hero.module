@@ -16,6 +16,7 @@ function klog_hero_theme($existing, $type, $theme, $path) {
         'subtitle' => NULL,
         'image' => NULL,
         'video' => [],
+        'plugin_id' => NULL,
       ],
       'file' => 'klog_hero.theme.inc',
       'pattern' => 'klog_hero__',
@@ -26,8 +27,12 @@ function klog_hero_theme($existing, $type, $theme, $path) {
 /**
  * Implements hook_theme_suggestions_HOOK() for klog-hero.html.twig.
  */
-function klog_hero_suggestions_klog_hero(array $variables) {
+function klog_hero_theme_suggestions_klog_hero(array $variables) {
   $suggestions = [];
+
+  if(!empty($variables['plugin_id'])) {
+    $suggestions[] = 'klog_hero__' . $variables['plugin_id'];
+  }
 
   if(!empty($variables['image'])) {
     $suggestions[] = 'klog_hero__image';
@@ -35,6 +40,14 @@ function klog_hero_suggestions_klog_hero(array $variables) {
 
   if(!empty($variables['image'] && !empty($variables['video']))) {
     $suggestions[] = 'klog_hero__video';
+  }
+
+  if(!empty($variables['image'])) {
+    $suggestions[] = 'klog_hero__' . $variables['plugin_id'] . '__image';
+  }
+
+  if(!empty($variables['image'] && !empty($variables['video']))) {
+    $suggestions[] = 'klog_hero__' . $variables['plugin_id'] . '__video';
   }
 
   return $suggestions;

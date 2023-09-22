@@ -29,6 +29,8 @@
 
   // Node
 @import "components/node/page/node-page-full";
+@import "components/node/blog-article/node-blog-article-full";
+@import "components/node/blog-article/node-blog-article-teaser";
 
   // Paragraph
 @import "components/paragraph/paragraph-style";
@@ -39,6 +41,11 @@
 @import "components/paragraph/remote-video-gallery/paragraph-remote-video-gallery";
 @import "components/paragraph/text-and-image/paragraph-text-and-image";
 
+  // Theme
+@import "components/theme/previous-next";
+
+  // Views
+@import "components/views/articles";
 
 @import "components/button";
 @import "components/navbar";

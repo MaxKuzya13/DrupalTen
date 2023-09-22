@@ -1,0 +1,83 @@
+.node-blog-article-teaser {
+  &__field-promo-image {
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px rgba(black, 0.1);
+  }
+
+  &__title{
+    margin-bottom: 0.5rem;
+    a{
+      color: black;
+      margin: 0 0 0.5rem;
+      &:hover {
+        color: $color-primary;
+      }
+    }
+  }
+
+  &__field-tags {
+    margin-bottom: 1rem;
+    font-size: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+
+    .field__item {
+      a {
+        display: block;
+        background: #0a6eb4;
+        color: white;
+        border-radius: 2px;
+        padding: 2px 6px;
+      }
+    }
+  }
+
+  &__meta {
+    font-size: 14px;
+    color: rgba(gray, 0.6);
+    display: flex;
+    gap: 1rem;
+  }
+
+  &__created {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+      content: '';
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+      width: 14px;
+      height: 14px;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/55/55281.png');
+      background-size: cover;
+      color: $color-text;
+      margin-right: 5px;
+    }
+  }
+
+  &__estimated-read-time {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    &::before {
+      content: '';
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5px;
+      width: 14px;
+      height: 14px;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/0/183.png');
+      background-size: cover;
+      color: $color-text;
+      margin-right: 5px;
+    }
+  }
+}

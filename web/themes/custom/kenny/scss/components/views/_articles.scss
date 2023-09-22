@@ -1,0 +1,7 @@
+.view-blog-articles-page {
+  .view-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}

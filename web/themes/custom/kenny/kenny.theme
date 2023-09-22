@@ -6,7 +6,10 @@
  */
 
 // Include all files from the includes directory
-$includes_path = dirname(__FILE__) . "/includes/*.inc";
+$includes_path = dirname(__FILE__) . "/includes/*.inc";/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
+
 foreach (glob($includes_path) as $filename) {
   require_once dirname(__FILE__) . '/includes/' . basename($filename);
 }
@@ -18,12 +21,6 @@ function kenny_preprocess_html(array &$variables): void {
 
 }
 
-/**
- * Implements hook_preprocess_HOOK() for page.html.twig.
- */
-function kenny_preprocess_page(array &$variables): void {
-
-}
 
 /**
  * Implements hook_preprocess_HOOK() for node.html.twig.

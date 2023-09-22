@@ -1,0 +1,107 @@
+.previous-next {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 7rem;
+
+
+  &__previous,
+  &__next {
+    width: 47%;
+  }
+}
+
+
+.previous-next {
+  &--blog-article & {
+    &__previous, &__next {
+      border-radius: 8px;
+      overflow: hidden;
+
+    }
+
+    &__link {
+      display: flex;
+      height: 100%;
+      align-items: center;
+      padding: 1rem;
+      color: white;
+      position: relative;
+      background: rgba(gray, 0.4);
+    }
+
+    &__promo-image {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-size: cover;
+      z-index: 0;
+
+      &:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(black, 0.6);
+      }
+    }
+
+    &__icon {
+      position: relative;
+      z-index: 10;
+
+      &-previous {
+        &:before {
+          display: block;
+          color: yellow;
+          content: '';
+          width: 25px;
+          height: 25px;
+          background-image: url('https://cdn-icons-png.flaticon.com/512/959/959262.png');
+          background-size: cover;
+          margin-right: 1rem;
+        }
+      }
+
+      &-next {
+        &:after {
+          display: block;
+          color: yellow;
+          content: '';
+          width: 25px;
+          height: 25px;
+          background-image: url('https://cdn-icons-png.flaticon.com/512/222/222330.png');
+          background-size: cover;
+          margin-left: 1rem;
+        }
+      }
+    }
+
+    &__content {
+      position: relative;
+      z-index: 10;
+
+      &--next {
+        width: 100%;
+        text-align: right;
+      }
+    }
+
+    &__tag {
+      color: yellow;
+      font-weight: bold;
+
+      &:not(:last-child)::after {
+        content: ',';
+        display: inline;
+      }
+    }
+  }
+
+}
