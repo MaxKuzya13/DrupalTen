@@ -17,7 +17,7 @@ function photoswipe_libraries_info() {
     'download url' => 'https://github.com/dimsemenov/PhotoSwipe/archive/master.zip',
     'version arguments' => [
       'file' => 'dist/photoswipe.min.js',
-      // PhotoSwipe - v4.1.1 - 2015-12-24.
+      // photoswipe - v4.1.1 - 2015-12-24.
       'pattern' => '/v([\d.]+)/',
       'lines' => 1,
       'cols' => 30,

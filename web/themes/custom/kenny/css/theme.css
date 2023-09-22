@@ -159,8 +159,9 @@ p {
 }
 
 .footer {
-  background: #bdc3c7;
-  opacity: 80%;
+  background: rgba(189, 195, 199, 0.8);
+  position: relative;
+  z-index: 20;
 }
 .footer__content {
   max-width: 1170px;
@@ -204,6 +205,7 @@ p {
 
 .header {
   position: relative;
+  z-index: 10;
 }
 .header__top {
   position: relative;
@@ -227,11 +229,15 @@ p {
   color: white;
 }
 
+.app {
+  background: rgba(128, 128, 128, 0.3);
+}
+
 .main-layout {
-  max-width: 1170px;
+  max-width: calc(1170px + 2rem);
   margin: 0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  position: relative;
+  z-index: 15;
 }
 .main-layout .tabs, .main-layout .primary {
   display: inline-flex;
@@ -244,6 +250,12 @@ p {
   border: 1px solid cadetblue;
   padding: 0.5rem;
   border-radius: 15px;
+}
+.main-layout__inner {
+  padding: 2rem 1rem;
+  background: white;
+  box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.05);
+  margin-top: -100px;
 }
 
 .media-remote-video__field-media-oembed-video {

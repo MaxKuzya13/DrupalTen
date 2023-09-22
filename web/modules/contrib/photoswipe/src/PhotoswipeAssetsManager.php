@@ -13,14 +13,14 @@ use Drupal\Core\Theme\ThemeManager;
 class PhotoswipeAssetsManager implements PhotoswipeAssetsManagerInterface {
 
   /**
-   * The minimum PhotoSwipe version we support.
+   * The minimum photoswipe version we support.
    *
    * @var string
    */
   public $photoswipeMinPluginVersion = '4.0.0';
 
   /**
-   * The maximum PhotoSwipe version we support.
+   * The maximum photoswipe version we support.
    *
    * @var string
    */

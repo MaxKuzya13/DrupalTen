@@ -6,8 +6,10 @@
   {% include '@kenny/include/header.html.twig' %}
 
   <main class="{{ bem_block }}__content main-layout" role="main">
-    {{ page.content }}
-    {{ page.sidebar }}
+    <div class="main-layout__inner">
+      {{ page.content }}
+      {{ page.sidebar }}
+    </div>
   </main>
 
   {% include '@kenny/include/footer.html.twig' %}

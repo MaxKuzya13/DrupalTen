@@ -1,10 +1,10 @@
 @import "../../base/variables";
 @import "../../base/mixins";
 .main-layout {
-  max-width: $container-max;
+  max-width: calc($container-max + 2rem);
   margin: 0 auto;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  position: relative;
+  z-index: 15;
 
   .tabs, .primary {
     display: inline-flex;
@@ -16,5 +16,12 @@
       padding: 0.5rem;
       border-radius: 15px;
     }
+  }
+
+  &__inner {
+    padding: 2rem 1rem;
+    background: white;
+    box-shadow: 0 0 15px 5px rgba(black, 0.05);
+    margin-top: -100px;
   }
 }

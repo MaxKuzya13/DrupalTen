@@ -2,8 +2,9 @@
 @import "../../base/mixins";
 
 .footer {
-  background: #bdc3c7;
-  opacity: 80%;
+  background: rgba(#bdc3c7, 0.8);
+  position: relative;
+  z-index: 20;
 
   &__content {
     max-width: $container-max;

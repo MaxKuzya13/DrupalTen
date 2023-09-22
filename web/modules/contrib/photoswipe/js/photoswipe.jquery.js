@@ -1,7 +1,7 @@
 (function ($, Drupal, PhotoSwipe, PhotoSwipeUI_Default) {
   Drupal.behaviors.photoswipe = {
     /**
-     * PhotoSwipe Options, coming from Drupal.settings.
+     * photoswipe Options, coming from Drupal.settings.
      */
     photoSwipeOptions: {},
     /**
@@ -9,7 +9,7 @@
      */
     galleries: [],
     /**
-     * Load PhotoSwipe once page is ready
+     * Load photoswipe once page is ready
      */
     attach: function (context, settings) {
       this.photoSwipeOptions = settings.photoswipe ? settings.photoswipe.options : {};
@@ -72,7 +72,7 @@
       var index = $clickedGallery.find('.photoswipe').index($clickedListItem);
       if (index >= 0) {
         e.preventDefault ? e.preventDefault() : e.returnValue = false;
-        // open PhotoSwipe if valid index found
+        // open photoswipe if valid index found
         Drupal.behaviors.photoswipe.openPhotoSwipe(index, $clickedGallery);
         // Only prevent default when clicking on a photoswipe image.
         return false;
@@ -126,9 +126,9 @@
       }
 
       // Ensures we have items (.photoswipe element) before initializing
-      // PhotoSwipe so to make PhotoSwipe get along with Blazy, Slick, etc.
+      // photoswipe so to make photoswipe get along with Blazy, Slick, etc.
       if (items.length > 0) {
-        // Pass data to PhotoSwipe and initialize it
+        // Pass data to photoswipe and initialize it
         var gallery = new PhotoSwipe(pswpContainer, PhotoSwipeUI_Default, items, options);
         gallery.init();
         this.galleries.push(gallery);

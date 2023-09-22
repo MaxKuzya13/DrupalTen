@@ -15,12 +15,13 @@
 @import "components/block/klog-hero";
 
   // Footer
-@import "components/footer/footer-main";
+@import "components/footer/footer";
 
   // Header
-@import "components/header/header-main";
+@import "components/header/header";
 
   // Layout
+@import "components/layout/app";
 @import "components/layout/main-layout";
 
   // Media

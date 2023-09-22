@@ -1,6 +1,23 @@
-{% extends 'node.html.twig' %}
+{#{% implements 'node.html.twig' %}#}
+{%
+  set classes = [
+  'node',
+  'node-' ~ node.bundle|clean_class ~ (view_mode != default ? '-' ~ view_mode)|clean_class,
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+]
+%}
+
 
 {% block node %}
-  TEST
+  <article {{ attributes.addClass(classes) }}>
+    {{ url }}
+    {{ content }}
+    TEST
+  </article>
 
 {% endblock %}
+
+
+
