@@ -1,0 +1,25 @@
+.klog-label-with-icon-media-formatter {
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    margin-right: 1rem;
+    flex: 0 0 4rem;
+    width: 4rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__label {
+    color: black;
+    font-weight: bold;
+
+  }
+
+  &__filesize {
+    color: $color-text;
+    font-size: 14px;
+  }
+}

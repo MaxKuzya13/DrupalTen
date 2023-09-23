@@ -22,6 +22,16 @@ function klog_theme ($existing, $type, $path) {
       'file' => 'klog.theme.inc',
       'pattern' => 'klog_previous_next__',
     ],
+    'klog_label_with_icon_media_formatter' => [
+      'variables' => [
+        'url' => NULL,
+        'label' => NULL,
+        'filesize' => NULL,
+        'media_type' => NULL,
+        'mime_type' => NULL,
+      ],
+      'file' => 'klog.theme.inc',
+    ]
   ];
 }
 
