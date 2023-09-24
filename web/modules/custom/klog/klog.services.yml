@@ -1,6 +1,0 @@
-services:
-  klog.event_subscriber:
-    class: Drupal\klog\EventSubscriber\KlogSubscriber
-    arguments: ['@session_manager']
-    tags:
-      - { name: event_subscriber }
