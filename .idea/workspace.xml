@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/templates/klog-label-with-icon-media-formatter.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/theme/_klog-label-with-icon-media-formatter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/form/form-element.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.theme.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/templates/klog-blog-related-posts.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/theme/_klog-blog-related-posts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/klog.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/klog.theme.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.theme.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/blog-article/_node-blog-article-full.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/blog-article/_node-blog-article-full.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
@@ -199,25 +199,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Constants": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/form",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.php.debug.servers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Constants&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/form&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.php.debug.servers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PsalmBlackList">
     <option name="filePaths">
       <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
@@ -232,11 +232,11 @@
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/navigation" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/modules/custom/klog_blog" />
       <recent name="$PROJECT_DIR$/.ddev" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/header" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -258,7 +258,8 @@
       <workItem from="1694851829595" duration="18139000" />
       <workItem from="1695200930665" duration="6766000" />
       <workItem from="1695393490481" duration="6600000" />
-      <workItem from="1695450614592" duration="13919000" />
+      <workItem from="1695450614592" duration="14426000" />
+      <workItem from="1695536737725" duration="8085000" />
     </task>
     <servers />
   </component>
