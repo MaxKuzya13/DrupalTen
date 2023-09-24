@@ -23,6 +23,11 @@ function klog_blog_theme($existing, $type, $theme, $path) {
       ],
       'file' => 'klog_blog.theme.inc'
     ],
+    'klog_blog_random_posts' => [
+      'variables' => [],
+      'file' => 'klog_blog.theme.inc'
+    ],
+
   ];
 }
 
@@ -47,6 +52,12 @@ function klog_blog_entity_extra_field_info() {
 
   $extra['node']['blog_article']['display']['related_posts'] = [
     'label' => t('Related posts'),
+    'weight' => 100,
+    'visible' => FALSE,
+  ];
+
+  $extra['node']['blog_article']['display']['random_posts'] = [
+    'label' => t('Random posts'),
     'weight' => 100,
     'visible' => FALSE,
   ];
@@ -84,6 +95,15 @@ function klog_blog_node_view(array &$build, NodeInterface $node, EntityViewDispl
   if ($display->getComponent('related_posts')) {
     $build['related_posts'] = [
       '#theme' => 'klog_blog_related_posts',
+    ];
+  }
+
+  if ($display->getComponent('random_posts')) {
+    $build['random_posts'] = [
+      '#create_placeholder' => TRUE,
+      '#lazy_builder' => [
+        'klog_blog.lazy_builder:randomBlogPosts', [],
+      ],
     ];
   }
 }

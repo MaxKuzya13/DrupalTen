@@ -15,7 +15,7 @@ class BlogManager implements BlogManagerInterface {
   /**
    * The entity type manager.
    *
-   * @var \Drupal\Core\Entity\Entity\EntityTypeManagerInterface
+   * @var \Drupal\Core\Entity\EntityTypeManagerInterface
    * */
   protected $entityTypeManager;
 
@@ -23,7 +23,7 @@ class BlogManager implements BlogManagerInterface {
   /**
    * The node storage.
    *
-   * @var \Drupal\Core\Entity\Entity\EntityStorageInterface
+   * @var \Drupal\Core\Entity\EntityStorageInterface
    * */
   protected $nodeStorage;
 
@@ -149,22 +149,19 @@ class BlogManager implements BlogManagerInterface {
 
       $counter = 0;
       $result = [];
+
       if($exact_tags > 0) {
         $exact_same = $this->getRelatedPostsWithExactSameTags($node, $exact_tags);
         $result += $exact_same;
         $counter += count($exact_same);
       }
 
-
       if ($counter < $max) {
         $exclude_ids = [];
         if (!empty($exact_same)) {
-
           $exclude_ids = $exact_same;
         }
-
         $same_tags = $this->getRelatedPostsWithSameTags($node, $exclude_ids, ($max - $counter));
-
         $result += $same_tags;
         $counter += count($same_tags);
       }
@@ -172,7 +169,6 @@ class BlogManager implements BlogManagerInterface {
       if ($counter < $max) {
         if (!empty($same_tags)) {
           $exclude_ids += $same_tags;
-
         }
 
         $random = $this->getRandomPosts(($max - $counter), $exclude_ids);

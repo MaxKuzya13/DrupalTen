@@ -1,0 +1,32 @@
+.klog-blog-random-posts {
+  &__title {
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+
+    span {
+      background: white;
+      position: relative;
+      z-index: 10;
+      padding: 0 1rem;
+    }
+
+    &:before {
+      content: '';
+      height: 2px;
+      width: 100%;
+      background-color: rgba(gray, 0.4);
+      position: absolute;
+      z-index: 5;
+      left: 0;
+      top: calc(50% - 1px)
+    }
+  }
+
+  &__items {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+}
