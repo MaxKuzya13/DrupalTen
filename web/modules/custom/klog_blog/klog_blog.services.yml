@@ -1,0 +1,5 @@
+services:
+  klog_blog.manager:
+    class: 'Drupal\klog_blog\Service\BlogManager'
+    arguments: ['@entity_type.manager']
+
