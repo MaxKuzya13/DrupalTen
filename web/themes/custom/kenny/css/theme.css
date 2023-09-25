@@ -218,6 +218,13 @@ p {
   margin-right: 0.4em;
 }
 
+.comment-comment-form__author {
+  display: flex;
+  max-width: 1170px;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
 .header {
   position: relative;
   z-index: 10;

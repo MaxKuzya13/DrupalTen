@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/klog.services.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/src/EventSubscriber/KlogSubscriber.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatarInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/templates/comment-form--node--blog-article--field-comments.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/form/_comment-comment-form.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/form/form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/form/input.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.services.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogLazyBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogLazyBuilderInterface.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +212,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/scss/components/theme",
+    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/form",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -218,8 +231,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/theme" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/form" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/theme" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/field" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/assets/images" />
@@ -252,7 +265,9 @@
       <workItem from="1695200930665" duration="6766000" />
       <workItem from="1695393490481" duration="6600000" />
       <workItem from="1695450614592" duration="14426000" />
-      <workItem from="1695536737725" duration="19282000" />
+      <workItem from="1695536737725" duration="19343000" />
+      <workItem from="1695625344317" duration="5781000" />
+      <workItem from="1695636746051" duration="8766000" />
     </task>
     <servers />
   </component>

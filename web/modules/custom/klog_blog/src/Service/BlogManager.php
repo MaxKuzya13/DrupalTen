@@ -59,19 +59,16 @@ class BlogManager implements BlogManagerInterface {
           ->range(0, $limit)
           ->addTag('entity_query_random');
 
-
         foreach ($node->get('field_tags')->getValue() as $field_tag) {
           $and = $query->andConditionGroup();
           $and->condition('field_tags', $field_tag['target_id']);
           $query->condition($and);
         }
-
         $result = $query->execute();
       }
       else {
         $result = [];
       }
-
     }
     return $result;
   }
@@ -101,17 +98,12 @@ class BlogManager implements BlogManagerInterface {
         if (!empty($exclude_ids)) {
           $query->condition('nid', $exclude_ids, 'NOT IN');
         }
-
-
-
         $result = $query->execute();
       }
       else {
         $result = [];
       }
-
     }
-
 
     return $result;
 

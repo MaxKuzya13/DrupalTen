@@ -1,0 +1,52 @@
+<?php
+
+/**
+ * @file
+ * Main file for custom hooks and function
+ */
+
+use Drupal\Core\Form\FormStateInterface;
+
+function klog_comments_theme($existing, $type, $theme, $path) {
+  return [
+    'comment_form__node__blog_article__field_comments' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+/**
+ * Implements hook_form_alter
+ */
+
+function klog_comments_form_alter(&$form, FormStateInterface &$form_state, $form_id) {
+  if($form_id == 'comment_comment_form') {
+
+    $widget = $form['comment_body']['widget'][0];
+    $comment_body = $form['comment_body']['widget'];
+
+    if ($comment_body) {
+      $form['comment_body']['widget']['#after_build'][] = '_klog_comments_remove_text_textarea_format';
+    }
+  };
+}
+
+/**
+ * After build callback to remove text_textarea format.
+ */
+function _klog_comments_remove_text_textarea_format($form, FormStateInterface $form_state) {
+
+  $element = $form[0];
+  hide($element['format']);
+  return $element;
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter for comment_comment_form
+ */
+function klog_comments_form_comment_comment_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $form['author']['name']['#attributes']['placeholder'] = 'Gavin Belson';
+  $form['author']['mail']['#attributes']['placeholder'] = 'gavin@hooli.com';
+  unset($form['author']['mail']['#description']);
+  $form['author']['homepage']['#attributes']['placeholder'] = 'http://hooli.com';
+}

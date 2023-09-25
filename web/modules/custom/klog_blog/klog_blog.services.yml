@@ -2,6 +2,5 @@ services:
   klog_blog.manager:
     class: 'Drupal\klog_blog\Service\BlogManager'
     arguments: ['@entity_type.manager']
-  klog_blog.lazy_builder:
-    class: 'Drupal\klog_blog\Service\BlogLazyBuilder'
+
 

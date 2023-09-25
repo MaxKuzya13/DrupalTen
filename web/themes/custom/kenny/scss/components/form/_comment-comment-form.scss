@@ -1,0 +1,8 @@
+.comment-comment-form{
+  &__author {
+    display: flex;
+    max-width: $container-max;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+}
