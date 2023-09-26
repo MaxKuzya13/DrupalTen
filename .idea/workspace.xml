@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatarInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/templates/comment-form--node--blog-article--field-comments.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/form/_comment-comment-form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/form/form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/form/input.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.services.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/comment.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/comment/_comment-comment.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment/comment--field-comments--blog-article.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment/comment.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/field/field--comment.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/node/blog-article/field--node--field-comments--blog-article.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/klog_blog.services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogLazyBuilder.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogLazyBuilderInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/blog-article/_node-blog-article-full.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/node/blog-article/_node-blog-article-full.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +210,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/form",
+    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/templates/field",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -231,18 +229,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/field" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/form" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/theme" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/field" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_blog" />
       <recent name="$PROJECT_DIR$/.ddev" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/header" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -267,7 +265,8 @@
       <workItem from="1695450614592" duration="14426000" />
       <workItem from="1695536737725" duration="19343000" />
       <workItem from="1695625344317" duration="5781000" />
-      <workItem from="1695636746051" duration="8766000" />
+      <workItem from="1695636746051" duration="8929000" />
+      <workItem from="1695711984146" duration="6885000" />
     </task>
     <servers />
   </component>

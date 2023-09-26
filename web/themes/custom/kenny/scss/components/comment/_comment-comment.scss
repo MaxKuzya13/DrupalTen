@@ -1,0 +1,65 @@
+$avatar-width: 3rem;
+.comment-comment {
+  display: flex;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(gray, 0.5);
+
+  &__left {
+    width: $avatar-width;
+    margin-right: 1rem;
+  }
+
+  &__right {
+    width: calc(100% - $avatar-width - 1rem);
+  }
+
+  &__letter-avatar {
+    height: $avatar-width;
+    text-align: center;
+    line-height: $avatar-width;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: $avatar-width;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+
+    &:before {
+      content: '';
+      position: absolute;
+      @include scaleImage;
+      background-image: linear-gradient(to bottom, rgba(white, 0.1), rgba(black, 0.15));
+      z-index: 5;
+    }
+  }
+  &__letter-avatar-letter {
+    position: relative;
+    z-index: 10;
+  }
+
+  &__header {
+    display: flex;
+    margin-bottom: 0.5rem;
+  }
+
+  &__header-left {
+
+  }
+
+  &__header-right {
+    margin-left: auto;
+  }
+
+  .links {
+    @include resetLi;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  //&:last-child {
+  //  border-bottom: unset;
+  //  margin-bottom: unset;
+  //  padding-bottom: unset;
+  //}
+}

@@ -1,0 +1,4 @@
+services:
+  klog_comments.letter_avatar:
+    class: 'Drupal\klog_comments\Service\LetterAvatar'
+

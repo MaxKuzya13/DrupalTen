@@ -1,0 +1,41 @@
+{% if threaded %}
+  {{ attach_library('generated/indented') }}
+{% endif %}
+
+{% set bem_block = bemblock ? bemblock : ('comment-' ~ comment.bundle ~(elements['#view_mode'] != 'default' ? '-' ~ elements['view_mode']))|clean_class %}
+
+{%
+  set classes = [
+  'comment',
+  bem_block,
+  bem_block ~ '--' ~ status,
+  'js-comment',
+  status != 'published' ? status,
+  comment.owner.anonymous ? 'by-anonymous',
+  author_id and author_id == commented_entity.getOwnerId() ? 'by-' ~ commented_entity.getEntityTypeId() ~ '-author',
+]
+%}
+<article{{ attributes.addClass(classes) }}>
+
+  <div class="{{ bem_block }}__left">
+    {{ content.letter_avatar }}
+  </div>
+
+  <div class="{{ bem_block }}__right">
+    <header class="{{ bem_block }}__header">
+      <div class="{{ bem_block }}__header-left">
+        {{ author }}
+        {{ created }}
+        {{ comment.homepage.value }}
+      </div>
+
+      <mark class="hidden" data-comment-timestamp="{{ new_indicator_timestamp }}"></mark>
+
+      <div class="{{ bem_block }}__header-right">
+        {{ content.links }}
+      </div>
+    </header>
+    {{ content|without('letter_avatar', 'links')}}
+  </div>
+
+</article>

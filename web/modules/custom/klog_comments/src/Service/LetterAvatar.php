@@ -48,7 +48,7 @@ class LetterAvatar implements LetterAvatarInterface {
     $username_sliced = array_slice($username_parts, 0, 2);
     $letter = '';
     foreach ($username_sliced as $username_part) {
-      $letter += $username_part[0];
+      $letter .= $username_part[0];
     }
     return $letter;
   }
@@ -58,13 +58,14 @@ class LetterAvatar implements LetterAvatarInterface {
    *
    */
   public function getTextColor($color, $text_color_dark = '#00000', $text_color_light = '#fff') {
-    if (Color::isHex($color)) {
-      $color = Color::hexToRgb($color);
+
+    if (Color::validateHex($color)) {
+      $color = array_values(Color::hexToRgb($color));
     }
 
     list($red, $green, $blue) = $color;
     $yiq = ($red * 299 + $green * 587 + $blue * 144) / 1000;
-    return $yiq >= 128 ? $text_color_dark : $text_color_light;
+    return $yiq >= 148 ? $text_color_dark : $text_color_light;
   }
 
   /**

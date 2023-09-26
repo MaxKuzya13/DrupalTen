@@ -5,7 +5,12 @@
  * Main file for custom hooks and function
  */
 
+use Drupal\comment\CommentInterface;
+use Drupal\Component\Utility\Color;
 use Drupal\Core\Form\FormStateInterface;
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Entity\Display\EntityViewDisplayInterface;
+
 
 function klog_comments_theme($existing, $type, $theme, $path) {
   return [
@@ -18,7 +23,6 @@ function klog_comments_theme($existing, $type, $theme, $path) {
 /**
  * Implements hook_form_alter
  */
-
 function klog_comments_form_alter(&$form, FormStateInterface &$form_state, $form_id) {
   if($form_id == 'comment_comment_form') {
 
@@ -49,4 +53,45 @@ function klog_comments_form_comment_comment_form_alter(&$form, FormStateInterfac
   $form['author']['mail']['#attributes']['placeholder'] = 'gavin@hooli.com';
   unset($form['author']['mail']['#description']);
   $form['author']['homepage']['#attributes']['placeholder'] = 'http://hooli.com';
+}
+
+/**
+ * Implements hook_entity_extra_field_info(),
+ */
+function klog_comments_entity_extra_field_info() {
+  $extra = [];
+
+  $extra['comment']['comment']['display']['letter_avatar'] = [
+    'label' => t('Letter avatar'),
+    'weight' => 100,
+    'visible' => FALSE,
+  ];
+
+  return $extra;
+}
+
+/**
+ * Implements hook_ENTITY_TYPE_view().
+ */
+function klog_comments_comment_view(array &$build, CommentInterface $comment, EntityViewDisplayInterface $display, $view_mode) {
+  $bem_block = Html::getClass( 'comment-' . $comment->bundle() . ($view_mode == 'default' ? '' : '-' . $view_mode));
+
+  if ($display->getComponent('letter_avatar')) {
+
+    /** @var \Drupal\klog_comments\Service\LetterAvatarInterface $letter_avatar */
+    $letter_avatar = \Drupal::service('klog_comments.letter_avatar');
+    $bg_color = Color::rgbToHex($letter_avatar->fromUsername($comment->getAuthorName()));
+
+    $build['letter_avatar'] = [
+      '#type' => 'inline_template',
+      '#template' => '<div class ="{{ class }}" style="background-color: {{ bg_color }};"><span class="{{ letter_class }}" style="color: {{ letter_color }}">{{ letter }}</span></div>',
+      '#context' => [
+        'class' => $bem_block . '__letter-avatar',
+        'bg_color' => $bg_color,
+        'letter' => $letter_avatar->getLetterFromUsername($comment->getAuthorName()),
+        'letter_class' => $bem_block . '__letter-avatar-letter',
+        'letter_color' => $letter_avatar->getTextColor($bg_color)
+      ],
+    ];
+  }
 }
