@@ -23,6 +23,7 @@ $avatar-width: 3rem;
     border-radius: $avatar-width;
     overflow: hidden;
     position: relative;
+
     z-index: 0;
 
     &:before {

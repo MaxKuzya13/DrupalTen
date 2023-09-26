@@ -4,5 +4,6 @@ description: Custom page title.
 package: Klog
 core_version_requirement: ^10
 dependencies:
+  - drupal:system
   - twig_tweak:twig_tweak
 

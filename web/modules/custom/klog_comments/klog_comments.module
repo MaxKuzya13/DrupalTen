@@ -84,7 +84,7 @@ function klog_comments_comment_view(array &$build, CommentInterface $comment, En
 
     $build['letter_avatar'] = [
       '#type' => 'inline_template',
-      '#template' => '<div class ="{{ class }}" style="background-color: {{ bg_color }};"><span class="{{ letter_class }}" style="color: {{ letter_color }}">{{ letter }}</span></div>',
+      '#template' => '<div class ="{{ class }}" style="background-color: {{ bg_color }};"><span class="{{ letter_class }}" style="color: {{ letter_color }}; text-transform: uppercase;">{{ letter }}</span></div>',
       '#context' => [
         'class' => $bem_block . '__letter-avatar',
         'bg_color' => $bg_color,

@@ -44,12 +44,21 @@ class LetterAvatar implements LetterAvatarInterface {
    * {@inheritdoc}
    */
   public function getLetterFromUsername($username) {
-    $username_parts = explode(' ', $username);
-    $username_sliced = array_slice($username_parts, 0, 2);
+    // Transcoding the username to lower case
+    $username = mb_strtolower($username);
+
+    // Split name by each word
+    $username_words = preg_split('/\s+/', $username, -1, PREG_SPLIT_NO_EMPTY);
+
+    // Display first letter of each word
     $letter = '';
-    foreach ($username_sliced as $username_part) {
-      $letter .= $username_part[0];
+    $word_count = count($username_words);
+
+    for ($i = 0; $i < min($word_count, 2); $i++) {
+      $word = $username_words[$i];
+      $letter .= mb_substr($word, 0, 1);
     }
+
     return $letter;
   }
 
