@@ -29,7 +29,7 @@ class KlogBlog extends KlogHeroPathPluginBase {
    */
   public function getHeroImage() {
     /** @var \Drupal\media\MediaStorage $media_storage */
-    $media_storage = $this->getEntiteTypeManager()->getStorage('media');
+    $media_storage = $this->getEntityTypeManager()->getStorage('media');
     $media_image = $media_storage->load(18);
     if($media_image instanceof MediaInterface) {
       return $media_image->get('field_media_image')->entity->get('uri')->value;
@@ -41,7 +41,7 @@ class KlogBlog extends KlogHeroPathPluginBase {
    */
   public function getHeroVideo() {
     /** @var \Drupal\media\MediaStorage $media_storage */
-    $media_storage = $this->getEntiteTypeManager()->getStorage('media');
+    $media_storage = $this->getEntityTypeManager()->getStorage('media');
     $media_video = $media_storage->load(16);
     if($media_video instanceof MediaInterface) {
       return [

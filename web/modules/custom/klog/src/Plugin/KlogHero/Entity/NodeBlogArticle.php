@@ -32,6 +32,6 @@ class NodeBlogArticle extends KlogHeroEntityPluginBase {
     $node = $this->getEntity();
     /** @var \Drupal\media\MediaInterface $media */
     $media = $node->get('field_promo_image')->entity;
-    return $media->get('field_media_image')->entity->get('uri')->value;
+    return $media->get('field_media_image')->entity->getFileUri();
   }
 }

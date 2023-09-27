@@ -848,3 +848,10 @@ p {
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+
+.view-blog-articles-in-tag .view-content {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}

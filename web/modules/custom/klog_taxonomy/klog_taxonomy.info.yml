@@ -1,0 +1,8 @@
+name: 'KLOG - Taxonomy terms'
+type: module
+description: 'The helpers and custom code for taxonomy terms'
+package: Klog
+core_version_requirement: ^10
+dependencies:
+  - drupal:taxonomy
+  - klog:node

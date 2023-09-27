@@ -3,7 +3,6 @@
 namespace Drupal\klog_hero\Plugin\KlogHero;
 
 use Drupal\Component\Plugin\PluginBase;
-use Drupal\Core\Condition\ConditionManager;
 use Drupal\Core\Controller\TitleResolverInterface;
 use Drupal\Core\Entity\EntityTypeManagerInterface;
 use Drupal\Core\Plugin\ContainerFactoryPluginInterface;
@@ -28,14 +27,6 @@ abstract class KlogHeroPluginBase extends PluginBase implements KlogHeroPluginIn
    * @var \Drupal\Core\Routing\CurrentRouteMatch
    */
   protected $routeMatch;
-
-  /**
-   * The condition manager.
-   *
-   * @var \Drupal\Core\Condition\ConditionManager $conditionManager;
-   */
-
-  protected $conditionManager;
 
   /**
    * The current page title.
@@ -65,19 +56,16 @@ abstract class KlogHeroPluginBase extends PluginBase implements KlogHeroPluginIn
    *  The current request.
    * @param \Drupal\Core\Routing\CurrentRouteMatch $current_route_match
    *  The current route match.
-   * @param \Drupal\Core\Condition\ConditionManager $condition_manager
-   *   The condition manager.
    * @param \Drupal\Core\Controller\TitleResolverInterface $title_resolver
    *  The title resolver.
    * @param \Drupal\Core\Entity\EntityTypeManagerInterface $entity_type_manager
    *  The entity type manager.
    */
-  public function __construct(array $configuration, string $plugin_id, $plugin_definition, Request $request, CurrentRouteMatch $current_route_match, ConditionManager $condition_manager, TitleResolverInterface $title_resolver, EntityTypeManagerInterface $entity_type_manager) {
+  public function __construct(array $configuration, string $plugin_id, $plugin_definition, Request $request, CurrentRouteMatch $current_route_match, TitleResolverInterface $title_resolver, EntityTypeManagerInterface $entity_type_manager) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
 
     $this->request = $request;
     $this->routeMatch = $current_route_match;
-    $this->conditionManager = $condition_manager;
     $this->pageTitle = $title_resolver->getTitle($this->request, $this->routeMatch->getRouteObject());
     $this->entityTypeManager = $entity_type_manager;
   }
@@ -92,7 +80,6 @@ abstract class KlogHeroPluginBase extends PluginBase implements KlogHeroPluginIn
       $plugin_definition,
       $container->get('request_stack')->getCurrentRequest(),
       $container->get('current_route_match'),
-      $container->get('condition_manager'),
       $container->get('title_resolver'),
       $container->get('entity_type.manager'),
     );
@@ -135,7 +122,7 @@ abstract class KlogHeroPluginBase extends PluginBase implements KlogHeroPluginIn
    * @return \Drupal\Core\Entity\EntityTypeManagerInterface
    *  The entity type manager.
    */
-  public function getEntiteTypeManager() {
+  public function getEntityTypeManager() {
     return $this->entityTypeManager;
   }
 
