@@ -173,20 +173,26 @@ p {
   background: rgba(0, 128, 0, 0.3);
 }
 
-.comment-comment {
+.comment-comment-full {
   display: flex;
+  flex-flow: row wrap;
+  font-size: 14px;
   margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
 }
-.comment-comment__left {
+.comment-comment-full--published {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  padding-bottom: 1rem;
+}
+.comment-comment-full__left {
   width: 3rem;
   margin-right: 1rem;
 }
-.comment-comment__right {
+.comment-comment-full__right {
   width: calc(100% - 3rem - 1rem);
+  display: flex;
+  flex-direction: column;
 }
-.comment-comment__letter-avatar {
+.comment-comment-full__letter-avatar {
   height: 3rem;
   text-align: center;
   line-height: 3rem;
@@ -197,7 +203,7 @@ p {
   position: relative;
   z-index: 0;
 }
-.comment-comment__letter-avatar:before {
+.comment-comment-full__letter-avatar:before {
   content: "";
   position: absolute;
   top: 0;
@@ -207,23 +213,51 @@ p {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.15));
   z-index: 5;
 }
-.comment-comment__letter-avatar-letter {
+.comment-comment-full__letter-avatar-letter {
   position: relative;
   z-index: 10;
 }
-.comment-comment__header {
+.comment-comment-full__header {
   display: flex;
+  gap: 0.5rem;
   margin-bottom: 0.5rem;
+  align-items: center;
 }
-.comment-comment__header-right {
-  margin-left: auto;
+.comment-comment-full__homepage {
+  background: rgba(0, 128, 0, 0.6);
+  display: inline-flex;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px 0.3rem;
+  color: white;
+  border-radius: 25px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
-.comment-comment .links {
+.comment-comment-full .username {
+  font-weight: bold;
+  color: black;
+}
+.comment-comment-full__footer {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 14px;
+}
+.comment-comment-full .links {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
   gap: 0.5rem;
+}
+.comment-comment-full .links a {
+  color: #444a41;
+}
+.comment-comment-full .links a:hover {
+  color: black;
+}
+.comment-comment-full__created {
+  margin-left: 0.5rem;
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .footer {
@@ -430,6 +464,14 @@ p {
 }
 .node-blog-article-full__field-comments-content .indented {
   margin-left: 2rem;
+}
+.node-blog-article-full__field-comments-form-container .form-textarea {
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+  min-height: 10rem;
+  height: inherit;
+  padding: 0.5rem;
 }
 
 .node-blog-article-teaser__field-promo-image {

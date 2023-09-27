@@ -71,4 +71,15 @@
       margin-left: 2rem;
     }
   }
+
+  &__field-comments-form-container {
+    .form-textarea {
+      width: 100%;
+      overflow: hidden;
+      resize: none;
+      min-height: 10rem;
+      height: inherit;
+      padding: 0.5rem;
+    }
+  }
 }

@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/klog_comments.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatar.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_comments/src/Service/LetterAvatar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/klog_hero.services.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginBase.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/KlogHeroPluginBase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHeroPluginManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHeroPluginManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/comment/_comment-comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/comment/_comment-comment.scss" afterDir="false" />
-    </list>
+    <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -261,7 +252,7 @@
       <workItem from="1695536737725" duration="19343000" />
       <workItem from="1695625344317" duration="5781000" />
       <workItem from="1695636746051" duration="8929000" />
-      <workItem from="1695711984146" duration="13179000" />
+      <workItem from="1695711984146" duration="13455000" />
     </task>
     <servers />
   </component>

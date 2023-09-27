@@ -2,7 +2,7 @@
   {{ attach_library('generated/indented') }}
 {% endif %}
 
-{% set bem_block = bemblock ? bemblock : ('comment-' ~ comment.bundle ~(elements['#view_mode'] != 'default' ? '-' ~ elements['view_mode']))|clean_class %}
+{% set bem_block = bemblock ? bemblock : ('comment-' ~ comment.bundle ~ (elements['#view_mode'] != 'default' ? '-' ~ elements['#view_mode']))|clean_class %}
 
 {%
   set classes = [
@@ -23,19 +23,20 @@
 
   <div class="{{ bem_block }}__right">
     <header class="{{ bem_block }}__header">
-      <div class="{{ bem_block }}__header-left">
-        {{ author }}
-        {{ created }}
-        {{ comment.homepage.value }}
-      </div>
 
+      {{ author }}
+      {{ content.homepage }}
       <mark class="hidden" data-comment-timestamp="{{ new_indicator_timestamp }}"></mark>
 
-      <div class="{{ bem_block }}__header-right">
-        {{ content.links }}
-      </div>
     </header>
-    {{ content|without('letter_avatar', 'links')}}
-  </div>
+    {{ content|without('letter_avatar', 'links', 'homepage')}}
 
+    <footer class="{{ bem_block }}__footer">
+      {{ content.links }}
+      <span class="{{ bem_block }}__created">
+          {{ created }}
+      </span>
+
+    </footer>
+  </div>
 </article>
