@@ -546,6 +546,145 @@ p {
   margin-right: 5px;
 }
 
+.frontpage {
+  margin-top: -36px;
+  position: relative;
+}
+.frontpage__container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.frontpage__welcome {
+  padding-top: 36px;
+  position: relative;
+}
+.frontpage__welcome:before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(15, 155, 15, 0.15));
+}
+.frontpage__welcome-video {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.frontpage__welcome-inner {
+  position: relative;
+  z-index: 5;
+  padding: 7rem 0;
+}
+.frontpage__welcome-title {
+  color: white;
+  margin: 0;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.frontpage__welcome-description {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 2rem;
+  max-width: 585px;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.frontpage__search {
+  display: flex;
+}
+.frontpage__search-input {
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 100%;
+}
+.frontpage__search-submit {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(15, 155, 15, 0.15));
+  border-radius: 1rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+.frontpage__search-submit:hover {
+  cursor: pointer;
+  border-color: #1b5e20;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(15, 155, 15, 0.2));
+}
+.frontpage__author {
+  padding: 36px 0;
+  position: relative;
+  background: white;
+}
+.frontpage__author-inner {
+  position: relative;
+  z-index: 5;
+}
+.frontpage__author-avatar {
+  display: table;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  border: 10px solid rgba(128, 128, 128, 0.3);
+}
+.frontpage__author-hello {
+  text-align: center;
+  color: rgba(128, 128, 128, 0.6);
+  font-weight: bold;
+}
+.frontpage__author-name {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+.frontpage__author-about {
+  max-width: 585px;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.6);
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+.frontpage__author-more {
+  display: table;
+  margin: 0 auto;
+  color: rgba(128, 128, 128, 0.6);
+}
+.frontpage__author-more:hover {
+  color: #0a6eb4;
+}
+.frontpage__articles {
+  background: white;
+  padding: 3rem 0;
+}
+.frontpage__articles-title {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 1rem;
+}
+.frontpage__articles-more {
+  display: table;
+  margin: 1rem auto 0 auto;
+  color: rgba(128, 128, 128, 0.6);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(15, 155, 15, 0.15));
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+}
+.frontpage__articles-more:hover {
+  color: #0a6eb4;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(15, 155, 15, 0.2));
+}
+
 /**
  * @file
  * Styles for ParagraphStyleBehavior
@@ -903,6 +1042,12 @@ p {
 .view-blog-articles-page .view-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.view-blog-articles-frontpage-articles .view-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 

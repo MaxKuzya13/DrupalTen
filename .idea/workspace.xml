@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog_taxonomy/src/Plugin/KlogHero/Path/KlogTaxonomyTags.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/taxonomy/_taxonomy-term-tags-teaser.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/views/_tags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/taxonomy-term/taxonomy-term.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/views/views-view-unformatted.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_frontpage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/frontpage.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--front.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_links_access_filter/admin_toolbar_links_access_filter.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_links_access_filter/admin_toolbar_links_access_filter.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_links_access_filter/admin_toolbar_links_access_filter.module" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_links_access_filter/admin_toolbar_links_access_filter.module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_search/admin_toolbar_search.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_search/admin_toolbar_search.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_search/css/admin.toolbar_search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_search/css/admin.toolbar_search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.info.yml" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_tools/admin_toolbar_tools.info.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_tools/src/AdminToolbarToolsHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_tools/src/AdminToolbarToolsHelper.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_tools/src/Controller/ToolbarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/contrib/admin_toolbar/admin_toolbar_tools/src/Controller/ToolbarController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog/src/Plugin/KlogHero/Path/KlogBlog.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog/src/Plugin/KlogHero/Path/KlogBlog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_blog/src/Service/BlogManager.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/Block/KlogHeroBlock.php" beforeDir="false" afterPath="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/Block/KlogHeroBlock.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/views/_articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/views/_articles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/theme/klog-hero.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/header.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +214,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/modules/custom/klog_taxonomy/src/Plugin/KlogHero/Path",
+    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/scss/components/pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -245,11 +233,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_taxonomy/src/Plugin/KlogHero/Path" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/taxonomy" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/taxonomy-term" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/views" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment" />
@@ -287,7 +275,7 @@
       <workItem from="1696160845470" duration="599000" />
       <workItem from="1696165147244" duration="20000" />
       <workItem from="1696166240866" duration="202000" />
-      <workItem from="1696227954270" duration="12401000" />
+      <workItem from="1696227954270" duration="20935000" />
     </task>
     <servers />
   </component>

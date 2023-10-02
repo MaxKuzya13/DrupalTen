@@ -3,11 +3,16 @@
   use_site_logo: false,
   use_site_slogan: false,
 } %}
+{% set show_klog_hero = show_klog_hero is defined ? show_klog_hero : true %}
+
 <header class="{{ bem_block }}" role="banner">
   <div class="{{ bem_block }}__top">
     {{ drupal_block('system_branding_block', branding_config ) }}
     {{ drupal_block('system_menu_block:main') }}
   </div>
-  {{ drupal_block('klog_hero') }}
+
+  {% if show_klog_hero %}
+    {{ drupal_block('klog_hero') }}
+  {% endif %}
 
 </header>
