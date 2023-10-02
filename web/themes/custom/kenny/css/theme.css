@@ -684,6 +684,63 @@ p {
   flex: 1;
 }
 
+.taxonomy-term-tags-teaser__link {
+  display: block;
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+}
+.taxonomy-term-tags-teaser__link:before {
+  content: " ";
+  display: block;
+  z-index: 10;
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  bottom: 0.3rem;
+  left: 0.3rem;
+  border: 1px solid #fff;
+  transition: border-color 0.25s ease;
+}
+.taxonomy-term-tags-teaser__link:hover:before {
+  border-color: green;
+  transition: border-color 0.25s ease;
+}
+.taxonomy-term-tags-teaser__link:hover .taxonomy-term-tags-teaser__header {
+  background-color: green;
+  color: white;
+  transition: background-color 0.25s ease;
+}
+.taxonomy-term-tags-teaser__promo-image {
+  position: absolute;
+  z-index: 5;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.taxonomy-term-tags-teaser__header {
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  background-color: #fff;
+  color: black;
+  transform: translate(-50%, -50%);
+  display: block;
+  padding: 0.3rem 0.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.25s ease;
+}
+
 .klog-blog-random-posts__title {
   text-align: center;
   margin-bottom: 1rem;
@@ -854,4 +911,11 @@ p {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.view-tags-page .view-content {
+  width: 1170px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
 }

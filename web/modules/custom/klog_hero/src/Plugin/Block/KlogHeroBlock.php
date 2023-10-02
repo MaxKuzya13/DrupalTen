@@ -45,7 +45,7 @@ final class KlogHeroBlock extends BlockBase implements ContainerFactoryPluginInt
    * @param Drupal\klog_hero\Plugin\KlogHeroPluginManager $klog_hero_path
    * The plugin manager for klog hero path plugins.
    */
-  public function __construct(array $configuration, $plugin_id, $plugin_definition, KlogHeroPluginManager $klog_hero_entity, KlogHeroPluginManager $klog_hero_path, ) {
+  public function __construct(array $configuration, $plugin_id, $plugin_definition, KlogHeroPluginManager $klog_hero_entity, KlogHeroPluginManager $klog_hero_path) {
     parent::__construct($configuration, $plugin_id, $plugin_definition);
 
     $this->klogHeroEntityManager = $klog_hero_entity;

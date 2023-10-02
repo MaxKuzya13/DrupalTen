@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\klog\Plugin\KlogHero\Path;
+namespace Drupal\klog_taxonomy\Plugin\KlogHero\Path;
 
 use Drupal\klog_hero\Plugin\KlogHero\Path\KlogHeroPathPluginBase;
 use Drupal\media\MediaInterface;
@@ -9,19 +9,12 @@ use Drupal\media\MediaInterface;
  * Hero block for path
  *
  * @KlogHeroPath (
- *   id = "klog_blog",
+ *   id = "klog_taxonomy_tags",
  *   match_type = "listed",
- *   match_path = {"/blog"}
+ *   match_path = {"/tags"}
  * )
  */
-class KlogBlog extends KlogHeroPathPluginBase {
-
-  /**
-   * {@inheritdoc}
-   */
-  public function getHeroSubtitle() {
-    return 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.';
-  }
+class KlogTaxonomyTags extends KlogHeroPathPluginBase {
 
   /**
    * {@inheritdoc}
@@ -30,7 +23,7 @@ class KlogBlog extends KlogHeroPathPluginBase {
 
     /** @var \Drupal\media\MediaStorage $media_storage */
     $media_storage = $this->getEntityTypeManager()->getStorage('media');
-    $media_image = $media_storage->load(18);
+    $media_image = $media_storage->load(27);
     if($media_image instanceof MediaInterface) {
       return $media_image->get('field_media_image')->entity->get('uri')->value;
     }
@@ -42,7 +35,7 @@ class KlogBlog extends KlogHeroPathPluginBase {
   public function getHeroVideo() {
     /** @var \Drupal\media\MediaStorage $media_storage */
     $media_storage = $this->getEntityTypeManager()->getStorage('media');
-    $media_video = $media_storage->load(16);
+    $media_video = $media_storage->load(29);
     if($media_video instanceof MediaInterface) {
       return [
         'video/mp4' => $media_video->get('field_media_video_file')->entity->get('uri')->value

@@ -46,7 +46,7 @@ class BlogManager implements BlogManagerInterface {
    */
   public function getRelatedPostsWithExactSameTags(NodeInterface $node, int $limit = 2) {
 
-    $result = &drupal_static(this::class . '__METHOD__' . $node->id() . $limit);
+    $result = &drupal_static(this::class . '_' . '__METHOD__' . '_' . $node->id() . $limit);
 
     if (!isset($result)) {
       if ($node->hasField('field_tags') && !$node->get('field_tags')->isEmpty()) {
@@ -77,7 +77,7 @@ class BlogManager implements BlogManagerInterface {
    * {@inheritdoc }
    */
   public function getRelatedPostsWithSameTags(NodeInterface $node, array $exclude_ids = [], int $limit = 2) {
-    $result = &drupal_static(this::class . '__METHOD__' . $node->id() . $limit);
+    $result = &drupal_static(this::class . '_' . '__METHOD__' . '_' . $node->id() . $limit);
     if (!isset($result) || $result == $exclude_ids) {
 
       if ($node->hasField('field_tags') && !$node->get('field_tags')->isEmpty()) {

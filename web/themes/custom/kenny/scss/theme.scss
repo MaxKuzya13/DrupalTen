@@ -47,6 +47,9 @@
 @import "components/paragraph/remote-video-gallery/paragraph-remote-video-gallery";
 @import "components/paragraph/text-and-image/paragraph-text-and-image";
 
+  // Taxonomy term
+@import "components/taxonomy/taxonomy-term-tags-teaser";
+
   // Theme
 @import "components/theme/klog-blog-random-posts";
 @import "components/theme/klog-blog-related-posts";
@@ -56,6 +59,7 @@
   // Views
 @import "components/views/articles";
 @import "components/views/view-blog-articles-in-tag";
+@import "components/views/tags";
 
 @import "components/button";
 @import "components/navbar";
