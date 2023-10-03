@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_frontpage.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/frontpage.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--front.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_contact-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/contact.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--contact.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/views/_articles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/views/_articles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/frontpage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/frontpage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--front.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--front.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +221,7 @@
     "nodejs_package_manager_path": "yarn",
     "php.override.implement.member.chooser.php.doc": "NONE",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.php.debug.servers",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -234,10 +233,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_taxonomy/src/Plugin/KlogHero/Path" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/taxonomy" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/taxonomy-term" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment" />
@@ -276,6 +275,7 @@
       <workItem from="1696165147244" duration="20000" />
       <workItem from="1696166240866" duration="202000" />
       <workItem from="1696227954270" duration="20935000" />
+      <workItem from="1696315334884" duration="1928000" />
     </task>
     <servers />
   </component>

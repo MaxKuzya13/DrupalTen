@@ -61,3 +61,24 @@ function kenny_preprocess_page__front(&$variables) {
     ->entity
     ->getFileUri();
 }
+
+/**
+ * Implements hook_preprocess_HOOK() for page--contact.html.twig.
+ */
+function kenny_preprocess_page__contact(&$variables) {
+  /** @var \Drupal\media\MediaStorage $media_storage */
+  $media_storage = \Drupal::entityTypeManager()->getStorage('media');
+  /** @var \Drupal\media\MediaInterface $media_image */
+  $media_image = $media_storage->load(31);
+  /** @var \Drupal\media\MediaInterface $media_video */
+  $media_video = $media_storage->load(30);
+
+  $variables['contact_image_uri'] = $media_image->get('field_media_image')
+    ->entity
+    ->getFileUri();
+
+
+  $variables['contact_video_uri'] = $media_video->get('field_media_video_file')
+    ->entity
+    ->getFileUri();
+}

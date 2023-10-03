@@ -8,8 +8,8 @@
         <option name="TAB_SIZE" value="2" />
       </value>
     </option>
-    <option name="LINE_SEPARATOR" value="&amp;#10" />
-    <option name="RIGHT_MARGIN" value="80" />
+    <option name="LINE_SEPARATOR" />
+    <option name="RIGHT_MARGIN" value="120" />
     <option name="SOFT_MARGINS" value="80,120" />
     <CssCodeStyleSettings>
       <option name="HEX_COLOR_LOWER_CASE" value="true" />
@@ -18,6 +18,9 @@
       <option name="BLANK_LINES_AROUND_NESTED_SELECTOR" value="0" />
       <option name="KEEP_SINGLE_LINE_BLOCKS" value="true" />
     </CssCodeStyleSettings>
+    <HTMLCodeStyleSettings>
+      <option name="HTML_ATTRIBUTE_WRAP" value="0" />
+    </HTMLCodeStyleSettings>
     <JSCodeStyleSettings version="0">
       <option name="FORCE_SEMICOLON_STYLE" value="true" />
       <option name="USE_DOUBLE_QUOTES" value="false" />

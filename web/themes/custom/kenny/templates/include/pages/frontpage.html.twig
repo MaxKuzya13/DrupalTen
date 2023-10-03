@@ -1,1 +1,41 @@
-{% set bem_block = 'frontpage' %}&#10&#10<main class="{{ bem_block }}">&#10  <div class="{{ bem_block }}__welcome">&#10&#10    <video poster="{{ search_image_uri|image_style('klog_hero') }}" autoplay loop muted class="{{ bem_block }}__welcome-video">&#10      <source src="{{ file_url(search_video_uri) }}" type="video/mp4">&#10      {{ 'Your browser does not support the video tag'|t }}&#10    </video>&#10&#10    <div class="{{ bem_block }}__container">&#10      <div class="{{ bem_block }}__welcome-inner">&#10        <h1 class="{{ bem_block }}__welcome-title">Welcome</h1>&#10&#10        <div class="{{ bem_block }}__welcome-description">&#10          <p>Lorem ipsum dolor sit upoir. Lorem ipsum dolor sit upoir Lorem ipsum dolor sit upoir Lorem ipsum dolor sit upoir Lorem ipsum dolor sit upoir Lorem ipsum dolor sit upoirvLorem ipsum dolor sit upoir. </p>&#10        </div>&#10&#10        <div class="{{ bem_block }}__search">&#10          <input type="text" autocomplete="off" class="{{ bem_block }}__search-input" placeholder="Search blog articles">&#10          <button class="{{ bem_block }}__search-submit">Search</button>&#10        </div>&#10      </div>&#10    </div>&#10  </div>&#10&#10  <div class="{{ bem_block }}__author">&#10    <div class="{{ bem_block }}__container">&#10      <div class="{{ bem_block }}__author-inner">&#10        <img src="{{ author_avatar|image_style('thumbnail') }}" alt="Avatar" class="{{ bem_block }}__author-avatar">&#10        <div class="{{ bem_block }}__author-hello">Hello, i`m </div>&#10        <div class="{{ bem_block }}__author-name">Kate Wilson</div>&#10        <div class="{{ bem_block }}__author-about">Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. </div>&#10        <a href="{{ url('entity.node.canonical', { node: 3}) }}" class="{{ bem_block }}__author-more">More about author</a>&#10      </div>&#10&#10&#10    </div>&#10  </div>&#10&#10  <div class="{{ bem_block }}__articles">&#10    <div class="{{ bem_block }}__container">&#10      <div class="{{ bem_block }}__articles-inner">&#10        <h2 class="{{ bem_block }}__articles-title">Latest blogs</h2>&#10          {{ drupal_view('blog_articles', 'frontpage_articles') }}&#10&#10        <a href="{{ url('view.blog_articles.page') }}" class="{{ bem_block }}__articles-more">See blog</a>&#10      </div>&#10    </div>&#10  </div>&#10&#10</main>&#10
+{% set bem_block = 'frontpage' %}
+  <main class="{{ bem_block }}">
+    <div class="{{ bem_block }}__welcome">
+      <video poster="{{ search_image_uri|image_style('klog_hero') }}" autoplay loop muted class="{{ bem_block }}__welcome-video">
+        <source src="{{ file_url(search_video_uri) }}" type="video/mp4">{{ 'Your browser does not support the video tag'|t }}
+      </video>
+      <div class="{{ bem_block }}__container">
+        <div class="{{ bem_block }}__welcome-inner">
+          <h1 class="{{ bem_block }}__welcome-title">Welcome</h1>
+          <div class="{{ bem_block }}__welcome-description">
+            <p>Lorem ipsumdolor sit upoir. Lorem ipsum dolor sit upoir Lorem ipsum dolor situpoir Lorem ipsum dolor sit upoir Lorem ipsum dolor sit upoir Loremipsum dolor sit upoirvLorem ipsum dolor sit upoir. </p>
+          </div>
+          <div class="{{ bem_block }}__search">
+            <input type="text" autocomplete="off" class="{{ bem_block }}__search-input" placeholder="Search blog articles">
+            <button class="{{ bem_block }}__search-submit">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="{{ bem_block }}__author">
+      <div class="{{ bem_block }}__container">
+        <div class="{{ bem_block }}__author-inner">
+          <img src="{{ author_avatar|image_style('thumbnail') }}" alt="Avatar" class="{{ bem_block }}__author-avatar">
+          <div class="{{ bem_block }}__author-hello">Hello, i`m</div>
+          <div class="{{ bem_block }}__author-name">Kate Wilson</div>
+          <div class="{{ bem_block }}__author-about">Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem&#10 color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice tags. Lorem ipsum lorem color four nice&#10   tags. Lorem ipsum lorem color four nice tags
+          </div>
+          <a href="{{ url('entity.node.canonical', { node: 3}) }}" class="{{ bem_block }}__author-more">More about author</a>
+        </div>
+      </div>
+    </div>
+    <div class="{{ bem_block }}__articles">
+      <div class="{{ bem_block }}__container">
+        <div class="{{ bem_block }}__articles-inner">
+          <h2 class="{{ bem_block }}__articles-title">Latest blogs</h2>
+          {{ drupal_view('blog_articles', 'frontpage_articles') }}
+          <a href="{{ url('view.blog_articles.page') }}" class="{{ bem_block }}__articles-more">See blog</a>
+        </div>
+      </div>
+    </div>
+  </main>
