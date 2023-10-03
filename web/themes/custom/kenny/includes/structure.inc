@@ -69,9 +69,9 @@ function kenny_preprocess_page__contact(&$variables) {
   /** @var \Drupal\media\MediaStorage $media_storage */
   $media_storage = \Drupal::entityTypeManager()->getStorage('media');
   /** @var \Drupal\media\MediaInterface $media_image */
-  $media_image = $media_storage->load(31);
+  $media_image = $media_storage->load(18);
   /** @var \Drupal\media\MediaInterface $media_video */
-  $media_video = $media_storage->load(30);
+  $media_video = $media_storage->load(24);
 
   $variables['contact_image_uri'] = $media_image->get('field_media_image')
     ->entity
