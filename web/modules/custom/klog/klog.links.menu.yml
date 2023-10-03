@@ -1,0 +1,10 @@
+klog.admin:
+  title: 'KLOG'
+  parent: system.admin
+  route_name: klog.admin
+  weight: -50
+
+klog.availability_settings:
+  title: 'Availability'
+  parent: klog.admin
+  route_name: klog.availability_settings

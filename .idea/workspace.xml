@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.links.menu.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.permissions.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.routing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/node.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_about-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/about.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--about.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_contact-page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_contact-page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/contact.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--contact.html.twig" afterDir="false" />
     </list>
@@ -242,10 +241,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout" />
+      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/includes" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_taxonomy/src/Plugin/KlogHero/Path" />
-      <recent name="$PROJECT_DIR$/web/modules/custom/klog_hero/src/Plugin/KlogHero/Path" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/taxonomy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment" />
@@ -284,7 +283,7 @@
       <workItem from="1696165147244" duration="20000" />
       <workItem from="1696166240866" duration="202000" />
       <workItem from="1696227954270" duration="20935000" />
-      <workItem from="1696315334884" duration="7796000" />
+      <workItem from="1696315334884" duration="14384000" />
     </task>
     <servers />
   </component>

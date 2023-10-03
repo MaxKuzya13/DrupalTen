@@ -1,0 +1,4 @@
+access klog admin page:
+  title: 'Access klog admin pages'
+  restrict access: true
+

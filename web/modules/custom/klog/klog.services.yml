@@ -1,0 +1,6 @@
+services:
+  klog.twig_extension:
+    class: Drupal\klog\Service\KlogTwigExtension
+    arguments: ['@config.factory']
+    tags:
+      - { name: twig.extension }

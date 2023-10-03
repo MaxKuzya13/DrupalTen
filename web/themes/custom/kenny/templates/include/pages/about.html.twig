@@ -1,0 +1,71 @@
+{% set bem_block = 'about-page' %}
+
+<div class="{{ bem_block }}">
+  <div class="{{ bem_block }}__inner">
+    <div class="{{ bem_block }}__left">
+      <h2 class="{{ bem_block }}__title">About author</h2>
+
+      <div class="{{ bem_block }}__quote">
+        <div class="{{ bem_block }}__quote-cite">
+          <p>Я і в думці обняти тебе не посмію,</p>
+          <p> А не те, щоб рукою торкнутися смів.</p>
+          <p>Я люблю тебе просто — отак, без надії,</p>
+          <p>Без тужливих зітхань і без клятвених слів.</p>
+          <br>
+          <p>Навіть в снах я боюсь доторкнутись до тебе,</p>
+          <p>Залмеліть, одуріти від твого тепла.</p>
+          <p>  Я кохаю тебе. Мені більше не треба,</p>
+          <p> Адже й так ти мені стільки щастя дала.</p>
+
+        </div>
+        <div class="{{ bem_block }}__quote-author">Василь Симоненко</div>
+        <div class="{{ bem_block }}__quote-book">Я і в думці обняти тебе не посмію…</div>
+      </div>
+
+      <div class="{{ bem_block }}__quote">
+        <div class="{{ bem_block }}__quote-cite">
+          Я тебе не сприймаю за істину,
+          <br>
+          Бо таких, мабуть, зовсім нема.
+          <br>
+          Ніч, вітрами дурними освистана,
+          <br>
+          Свою чорну чадру підніма.
+          <br><br>
+          І дивлюсь я здивовано в очі,
+          <br>
+          Що заблискали з-під чадри.
+          <br>
+          У волоссі — у сірому клоччі —
+          <br>
+          Причаїлися дикі вітри.
+          <br><br>
+          Недарма понад нею пронісся
+          <br>
+          Ураганний тайфун стихій.
+          <br>
+          Виповзає на перенісся
+          <br>
+          Зморшка відчаю і надій.
+          <br><br>
+          І куди я до істини втраплю
+          <br>
+          Через ями й вибоїни слів?
+          <br>
+          Коли б випив її хоч краплю,
+          <br>
+          То, напевне б, від жаху зомлів.
+          <br>
+        </div>
+        <div class="{{ bem_block }}__quote-author">Василь Симоненко</div>
+        <div class="{{ bem_block }}__quote-book">21.04.1960</div>
+      </div>
+    </div>
+
+    <div class="{{ bem_block }}__right">
+      <img src="{{ about_image_uri|image_style('about_author') }}" alt="About author" class="{{ bem_block }}__about-poster">
+    </div>
+  </div>
+
+
+</div>

@@ -1,0 +1,15 @@
+klog.admin:
+  path: '/admin/klog'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: "KLOG"
+  requirements:
+    _permission: 'access klog admin page'
+
+klog.availability_settings:
+  path: 'admin/klog/availability'
+  defaults:
+    _title: 'Availability settings'
+    _form: 'Drupal\klog\Form\AvailabilitySettingsForm'
+  requirements:
+    _permission: 'access klog admin page'

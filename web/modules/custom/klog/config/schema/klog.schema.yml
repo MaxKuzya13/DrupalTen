@@ -1,0 +1,8 @@
+# Schema for the configuration files of the KLOG module.
+klog.settings:
+  type: config_object
+  label: 'Klog availability settings'
+  mapping:
+    status:
+      type: string
+      label: 'Status'

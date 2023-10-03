@@ -52,3 +52,10 @@ function klog_imagemagick_arguments_alter(ImagemagickExecArguments $arguments, $
 function klog_query_entity_query_random_alter(AlterableInterface $query) {
   $query->orderRandom();
 }
+
+/**
+ * Implements hook_preprocess_HOOK() for toolbar.html.twig.
+ */
+function klog_preprocess_toolbar(&$variables) {
+  $variables['#attached']['library'][] = 'klog/toolbar';
+}
