@@ -59,3 +59,5 @@ function klog_query_entity_query_random_alter(AlterableInterface $query) {
 function klog_preprocess_toolbar(&$variables) {
   $variables['#attached']['library'][] = 'klog/toolbar';
 }
+
+// Test

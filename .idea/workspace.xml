@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="046d67a8-9a7e-4a11-b876-e95207374788" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.links.menu.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.permissions.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/modules/custom/klog/klog.routing.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/node.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages/_about-page.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/about.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--about.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/includes/structure.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/scss/theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout/page--contact.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,25 +202,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Constants": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "js.buildTools.gulp.gulp_package_dir": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp",
-    "last_opened_file_path": "/home/kuzya/my-drupal10-site/web/themes/custom/kenny/scss/components/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "php.override.implement.member.chooser.php.doc": "NONE",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Constants&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;/home/kuzya/my-drupal10-site/web/themes/custom/kenny/node_modules/gulp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kuzya/my-drupal10-site&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="PsalmBlackList">
     <option name="filePaths">
       <option value="$PROJECT_DIR$/web/modules/contrib/paragraphs/src/Plugin/Field/FieldWidget/ParagraphsWidget.php" />
@@ -240,19 +228,26 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/modules/custom/klog/assets/images" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/pages" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/include/pages" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/layout" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/includes" />
-      <recent name="$PROJECT_DIR$/web/modules/custom/klog_taxonomy/src/Plugin/KlogHero/Path" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/modules/custom/klog/src/Service" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/templates/content/comment" />
       <recent name="$PROJECT_DIR$/web/modules/custom/klog_blog" />
       <recent name="$PROJECT_DIR$/.ddev" />
       <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/block" />
-      <recent name="$PROJECT_DIR$/web/themes/custom/kenny/scss/components/footer" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -283,7 +278,21 @@
       <workItem from="1696165147244" duration="20000" />
       <workItem from="1696166240866" duration="202000" />
       <workItem from="1696227954270" duration="20935000" />
-      <workItem from="1696315334884" duration="14384000" />
+      <workItem from="1696315334884" duration="17231000" />
+      <workItem from="1696500353547" duration="244000" />
+      <workItem from="1696677948694" duration="5021000" />
+      <workItem from="1697023051190" duration="8560000" />
+      <workItem from="1697268252713" duration="10740000" />
+      <workItem from="1697442812169" duration="7649000" />
+      <workItem from="1697611787436" duration="7324000" />
+      <workItem from="1697796829752" duration="2970000" />
+      <workItem from="1697970711067" duration="1959000" />
+      <workItem from="1698136505828" duration="3266000" />
+      <workItem from="1698655711819" duration="639000" />
+      <workItem from="1698931062493" duration="1034000" />
+      <workItem from="1699096534195" duration="2860000" />
+      <workItem from="1699789151465" duration="1007000" />
+      <workItem from="1702744260637" duration="353000" />
     </task>
     <servers />
   </component>
